@@ -35,13 +35,17 @@ npm run dev
 
 Open http://localhost:3000 in your browser.
 
-📄 License & Attribution
+## 📄 License & Attribution
 
-SikatPDF is built upon the excellent open-source project KissThePDF, which is licensed under the MIT License.
+SikatPDF is built upon the excellent open-source project **KissThePDF**, which is licensed under the **MIT License**.
 
-All original code, UI, and branding modifications in this repository are also distributed under the MIT License. See the LICENSE file for more details.
+You can view the original repository here:
+👉 https://github.com/positiveabhii/kiss-the-pdf
 
-The hosted version at sikatpdf.com may include proprietary commercial features.
+All original code, UI, and branding modifications in this repository are also distributed under the **MIT License**. See the `LICENSE` file for more details.
 
-Built with ❤️ for privacy-conscious users.
+The hosted version at `sikatpdf.com` may include proprietary commercial features.
+
+---
+*Built with ❤️ for privacy-conscious users.*
 
