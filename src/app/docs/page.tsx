@@ -16,10 +16,10 @@ export default function DocsPortalPage() {
           <span>Official Developer & Product Documentation</span>
         </div>
         <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-          KissThePDF Documentation
+          SikatPDF Documentation
         </h1>
         <p className="text-base text-slate-600 max-w-2xl leading-relaxed">
-          Welcome to the technical documentation system for KissThePDF—the free, open-source, privacy-first PDF toolkit running 100% locally in your web browser.
+          Welcome to the technical documentation system for SikatPDF—the free, open-source, privacy-first PDF toolkit running 100% locally in your web browser.
         </p>
       </div>
 
@@ -79,23 +79,7 @@ export default function DocsPortalPage() {
           </p>
         </Link>
 
-        <Link
-          href="/docs/contributing"
-          className="group p-5 rounded-xl border border-slate-200 bg-white hover:border-emerald-300 hover:shadow-md transition-all space-y-2"
-        >
-          <div className="w-9 h-9 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center font-bold">
-            <Code size={18} />
-          </div>
-          <div className="flex items-center justify-between">
-            <h2 className="text-sm font-bold text-slate-900 group-hover:text-emerald-600 transition-colors">
-              Contributing Guide
-            </h2>
-            <ArrowRight size={15} className="text-slate-400 group-hover:text-emerald-500 group-hover:translate-x-1 transition-all" />
-          </div>
-          <p className="text-xs text-slate-500 leading-relaxed">
-            Fork the repository, set up your local development environment, run tests, and submit pull requests.
-          </p>
-        </Link>
+        
       </div>
 
       {/* Tool Categories Section */}

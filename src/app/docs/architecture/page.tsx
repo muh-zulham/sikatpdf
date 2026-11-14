@@ -34,7 +34,7 @@ export default function ArchitecturePage() {
         <section id="tech-stack" className="space-y-3 pt-4 border-t border-slate-200">
           <h2 className="text-xl font-bold text-slate-900 tracking-tight">Technology Stack</h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            KissThePDF is built using modern web architecture designed for maximum execution performance and small bundle sizes:
+            SikatPDF is built using modern web architecture designed for maximum execution performance and small bundle sizes:
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs font-mono">
             <div className="p-3.5 rounded-lg border border-slate-200 bg-white">

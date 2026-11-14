@@ -4,7 +4,7 @@ import { DocsToc } from "@/components/docs/docs-toc";
 import { DocsCTA } from "@/components/docs/docs-cta";
 
 export const metadata: Metadata = {
-  title: "How KissThePDF Works",
+  title: "How SikatPDF Works",
   description: "Deep dive into browser-first PDF processing, client-side WebAssembly execution, memory buffers, and zero server upload architecture.",
 };
 
@@ -23,10 +23,10 @@ export default function HowItWorksPage() {
       <div className="flex-1 min-w-0 space-y-8">
         <div>
           <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
-            How KissThePDF Works
+            How SikatPDF Works
           </h1>
           <p className="mt-2 text-base text-slate-600 leading-relaxed">
-            KissThePDF replaces server-based PDF converters with an ultra-fast, privacy-preserving browser engine. Learn how files are parsed, modified, and exported without leaving your device.
+            SikatPDF replaces server-based PDF converters with an ultra-fast, privacy-preserving browser engine. Learn how files are parsed, modified, and exported without leaving your device.
           </p>
         </div>
 
@@ -37,7 +37,7 @@ export default function HowItWorksPage() {
             Traditional online PDF converters require uploading user documents to remote cloud servers. Those servers parse the file, execute modifications, and return the modified document via HTTP response. This architecture introduces severe privacy risks, data breach potential, network latency, and high bandwidth costs.
           </p>
           <div className="p-4 rounded-lg bg-slate-900 text-slate-100 font-mono text-xs overflow-x-auto my-4 space-y-1">
-            <div className="text-orange-400 font-bold">// KissThePDF Processing Pipeline</div>
+            <div className="text-orange-400 font-bold">// SikatPDF Processing Pipeline</div>
             <div>[User File] → FileReader API → ArrayBuffer in RAM</div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;↓</div>
             <div>[Web Worker Thread] → pdf-lib / PDF.js WASM Engine</div>
@@ -60,7 +60,7 @@ export default function HowItWorksPage() {
         <section id="pdf-engine" className="space-y-3 pt-4 border-t border-slate-200">
           <h2 className="text-xl font-bold text-slate-900 tracking-tight">Client-Side PDF Engines</h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            KissThePDF integrates top open-source browser PDF engines:
+            SikatPDF integrates top open-source browser PDF engines:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
             <div className="p-4 rounded-lg border border-slate-200 bg-white space-y-1.5">
@@ -90,7 +90,7 @@ export default function HowItWorksPage() {
         <section id="file-handling" className="space-y-3 pt-4 border-t border-slate-200">
           <h2 className="text-xl font-bold text-slate-900 tracking-tight">Local ArrayBuffer File Handling</h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            When you select a file in KissThePDF, the browser uses the HTML5 <code>File API</code> to read the document as an <code>ArrayBuffer</code>. Once modified, output files are packaged into a <code>Blob</code> and made downloadable via <code>URL.createObjectURL()</code>. Data never touches any network socket.
+            When you select a file in SikatPDF, the browser uses the HTML5 <code>File API</code> to read the document as an <code>ArrayBuffer</code>. Once modified, output files are packaged into a <code>Blob</code> and made downloadable via <code>URL.createObjectURL()</code>. Data never touches any network socket.
           </p>
         </section>
 
@@ -98,7 +98,7 @@ export default function HowItWorksPage() {
         <section id="privacy-guarantee" className="space-y-3 pt-4 border-t border-slate-200">
           <h2 className="text-xl font-bold text-slate-900 tracking-tight">Technical Privacy Verification</h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            You can verify KissThePDF&apos;s privacy guarantees yourself:
+            You can verify SikatPDF&apos;s privacy guarantees yourself:
           </p>
           <ol className="list-decimal list-inside space-y-1 text-xs text-slate-700 leading-relaxed font-mono bg-slate-50 p-4 rounded-lg border border-slate-200">
             <li>Open Developer Tools (<kbd className="bg-white border rounded px-1">F12</kbd> or <kbd className="bg-white border rounded px-1">Cmd + Option + I</kbd>).</li>

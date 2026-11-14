@@ -28,9 +28,9 @@ export async function GET() {
     )
     .join("\n");
 
-  const content = `# KissThePDF — Full Capabilities, Documentation & Tool Catalogue Index
+  const content = `# SikatPDF — Full Capabilities, Documentation & Tool Catalogue Index
 
-This document provides a comprehensive, machine-readable specification of the KissThePDF open-source toolkit, its technical architecture, documentation portal (/docs), and its full catalogue of 100 browser-local PDF processing utilities.
+This document provides a comprehensive, machine-readable specification of the SikatPDF open-source toolkit, its technical architecture, documentation portal (/docs), and its full catalogue of 100 browser-local PDF processing utilities.
 
 ---
 

@@ -5,13 +5,13 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Zero-Install Stirling PDF Alternative (Web-Native)",
-  description: "Want Stirling PDF privacy without Docker setup? KissThePDF runs 100+ client-side tools instantly in your browser with zero server installation required.",
+  description: "Want Stirling PDF privacy without Docker setup? SikatPDF runs 100+ client-side tools instantly in your browser with zero server installation required.",
   alternates: {
     canonical: `${siteConfig.url}/stirling-pdf-alternative`,
   },
   openGraph: {
     title: "Zero-Install Stirling PDF Alternative (Web-Native) | ${siteConfig.name}",
-    description: "Want Stirling PDF privacy without Docker setup? KissThePDF runs 100+ client-side tools instantly in your browser with zero server installation required.",
+    description: "Want Stirling PDF privacy without Docker setup? SikatPDF runs 100+ client-side tools instantly in your browser with zero server installation required.",
     url: `${siteConfig.url}/stirling-pdf-alternative`,
     siteName: siteConfig.name,
     type: "website",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Zero-Install Stirling PDF Alternative (Web-Native) | ${siteConfig.name}",
-    description: "Want Stirling PDF privacy without Docker setup? KissThePDF runs 100+ client-side tools instantly in your browser with zero server installation required.",
+    description: "Want Stirling PDF privacy without Docker setup? SikatPDF runs 100+ client-side tools instantly in your browser with zero server installation required.",
   },
 };
 
@@ -28,7 +28,7 @@ export default function CompetitorAlternativePage() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Zero-Install Stirling PDF Alternative (Web-Native)",
-    "description": "Want Stirling PDF privacy without Docker setup? KissThePDF runs 100+ client-side tools instantly in your browser with zero server installation required.",
+    "description": "Want Stirling PDF privacy without Docker setup? SikatPDF runs 100+ client-side tools instantly in your browser with zero server installation required.",
   };
 
   const jsonLdFaq = {
@@ -37,26 +37,26 @@ export default function CompetitorAlternativePage() {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why choose KissThePDF over Stirling PDF?",
+      "name": "Why choose SikatPDF over Stirling PDF?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Stirling PDF is a great self-hosted tool, but it requires Docker setup, Java server management, and local server maintenance. KissThePDF delivers the same high privacy directly in your web browser with zero installation."
+        "text": "Stirling PDF is a great self-hosted tool, but it requires Docker setup, Java server management, and local server maintenance. SikatPDF delivers the same high privacy directly in your web browser with zero installation."
       }
     },
     {
       "@type": "Question",
-      "name": "Do my files get processed on a server with KissThePDF?",
+      "name": "Do my files get processed on a server with SikatPDF?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. KissThePDF processes PDFs entirely inside your browser sandbox via WebAssembly. There is no backend server involved at all."
+        "text": "No. SikatPDF processes PDFs entirely inside your browser sandbox via WebAssembly. There is no backend server involved at all."
       }
     },
     {
       "@type": "Question",
-      "name": "Is KissThePDF free and open source?",
+      "name": "Is SikatPDF free and open source?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. KissThePDF is licensed under the permissive MIT license and hosted openly on GitHub."
+        "text": "Yes. SikatPDF is licensed under the permissive MIT license and hosted openly on GitHub."
       }
     }
   ]
@@ -141,16 +141,16 @@ export default function CompetitorAlternativePage() {
         <h2 className="text-2xl font-bold text-slate-900">Frequently Asked Questions</h2>
         <div className="grid gap-4 md:grid-cols-3">
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
-            <h3 className="font-semibold text-slate-900 mb-2">Why choose KissThePDF over Stirling PDF?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">Stirling PDF is a great self-hosted tool, but it requires Docker setup, Java server management, and local server maintenance. KissThePDF delivers the same high privacy directly in your web browser with zero installation.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">Why choose SikatPDF over Stirling PDF?</h3>
+            <p className="text-sm text-slate-600 leading-relaxed">Stirling PDF is a great self-hosted tool, but it requires Docker setup, Java server management, and local server maintenance. SikatPDF delivers the same high privacy directly in your web browser with zero installation.</p>
           </div>
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
-            <h3 className="font-semibold text-slate-900 mb-2">Do my files get processed on a server with KissThePDF?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">No. KissThePDF processes PDFs entirely inside your browser sandbox via WebAssembly. There is no backend server involved at all.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">Do my files get processed on a server with SikatPDF?</h3>
+            <p className="text-sm text-slate-600 leading-relaxed">No. SikatPDF processes PDFs entirely inside your browser sandbox via WebAssembly. There is no backend server involved at all.</p>
           </div>
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
-            <h3 className="font-semibold text-slate-900 mb-2">Is KissThePDF free and open source?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">Yes. KissThePDF is licensed under the permissive MIT license and hosted openly on GitHub.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">Is SikatPDF free and open source?</h3>
+            <p className="text-sm text-slate-600 leading-relaxed">Yes. SikatPDF is licensed under the permissive MIT license and hosted openly on GitHub.</p>
           </div>
         </div>
       </section>

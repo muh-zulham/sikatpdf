@@ -5,13 +5,13 @@ import { DocsToc } from "@/components/docs/docs-toc";
 import { DocsCTA } from "@/components/docs/docs-cta";
 
 export const metadata: Metadata = {
-  title: "Getting Started with KissThePDF | How to Use Our Free PDF Tools",
-  description: "Your comprehensive guide to using KissThePDF's free, browser-based PDF tools. Learn how to upload files, process documents locally, and download results securely without uploads.",
+  title: "Getting Started with SikatPDF | How to Use Our Free PDF Tools",
+  description: "Your comprehensive guide to using SikatPDF's free, browser-based PDF tools. Learn how to upload files, process documents locally, and download results securely without uploads.",
 };
 
 const headings = [
-  { id: "what-is-kissthepdf", text: "What is KissThePDF?", level: 2 },
-  { id: "how-to-use", text: "How to Use KissThePDF", level: 2 },
+  { id: "what-is-kissthepdf", text: "What is SikatPDF?", level: 2 },
+  { id: "how-to-use", text: "How to Use SikatPDF", level: 2 },
   { id: "selecting-a-tool", text: "Selecting a Tool", level: 3 },
   { id: "uploading-files", text: "Uploading Files", level: 3 },
   { id: "local-processing", text: "Local Browser Processing", level: 3 },
@@ -26,20 +26,20 @@ export default function GettingStartedPage() {
       <div className="flex-1 min-w-0 space-y-8">
         <div>
           <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
-            Getting Started with KissThePDF
+            Getting Started with SikatPDF
           </h1>
           <p className="mt-2 text-base text-slate-600 leading-relaxed">
-            KissThePDF is a free, open-source, privacy-first PDF toolkit that runs entirely in your web browser. This guide explains how to use the platform effectively.
+            SikatPDF is a free, open-source, privacy-first PDF toolkit that runs entirely in your web browser. This guide explains how to use the platform effectively.
           </p>
         </div>
 
-        {/* Section 1: What is KissThePDF */}
+        {/* Section 1: What is SikatPDF */}
         <section id="what-is-kissthepdf" className="space-y-3 pt-4 border-t border-slate-200">
           <h2 className="text-xl font-bold text-slate-900 tracking-tight">
-            What is KissThePDF?
+            What is SikatPDF?
           </h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            KissThePDF is designed to handle common PDF and document manipulation tasks—such as merging, splitting, converting, rotating, editing, compressing, and password-protecting files—without uploading your sensitive files to external servers.
+            SikatPDF is designed to handle common PDF and document manipulation tasks—such as merging, splitting, converting, rotating, editing, compressing, and password-protecting files—without uploading your sensitive files to external servers.
           </p>
           <div className="p-4 rounded-lg bg-emerald-50 border border-emerald-200 text-xs text-emerald-900 space-y-1">
             <div className="flex items-center gap-1.5 font-bold text-emerald-800">
@@ -47,7 +47,7 @@ export default function GettingStartedPage() {
               <span>100% Local Browser Engine</span>
             </div>
             <p>
-              Unlike traditional PDF tools that require uploading your private documents to cloud servers, KissThePDF executes JavaScript and WebAssembly directly inside your browser tab context. Your files remain on your device.
+              Unlike traditional PDF tools that require uploading your private documents to cloud servers, SikatPDF executes JavaScript and WebAssembly directly inside your browser tab context. Your files remain on your device.
             </p>
           </div>
         </section>
@@ -55,7 +55,7 @@ export default function GettingStartedPage() {
         {/* Section 2: How to Use */}
         <section id="how-to-use" className="space-y-6 pt-4 border-t border-slate-200">
           <h2 className="text-xl font-bold text-slate-900 tracking-tight">
-            How to Use KissThePDF
+            How to Use SikatPDF
           </h2>
 
           <div className="space-y-4">
@@ -107,7 +107,7 @@ export default function GettingStartedPage() {
             Privacy & Data Security Model
           </h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            Privacy is the founding principle of KissThePDF. Here is our technical data guarantee:
+            Privacy is the founding principle of SikatPDF. Here is our technical data guarantee:
           </p>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-700">
             <li className="flex items-center gap-2 p-2.5 rounded bg-slate-50 border border-slate-200">
@@ -135,7 +135,7 @@ export default function GettingStartedPage() {
             Supported File Formats
           </h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            KissThePDF natively handles standard PDF files and major image and archive formats:
+            SikatPDF natively handles standard PDF files and major image and archive formats:
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs font-mono">
             <div className="p-2.5 rounded border border-slate-200 bg-white text-slate-800">

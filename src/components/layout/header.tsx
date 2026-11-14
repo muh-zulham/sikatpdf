@@ -73,7 +73,7 @@ export function Header({ onOpenMobile }: HeaderProps) {
           {/* Breadcrumb Navigation */}
           <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-xs font-medium text-slate-500 truncate">
             <Link href="/" className="hover:text-slate-900 transition-colors shrink-0 font-semibold text-slate-700">
-              KissThePDF
+              SikatPDF
             </Link>
             {activeTool ? (
               <>
@@ -126,6 +126,7 @@ export function Header({ onOpenMobile }: HeaderProps) {
             <span>Docs</span>
           </Link>
 
+        
           {/* Status Indicator */}
           <div className="hidden lg:flex items-center gap-1.5 px-2.5 py-1 text-[11px] font-medium text-emerald-700 bg-emerald-50 border border-emerald-200/60 rounded-full">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
@@ -133,18 +134,10 @@ export function Header({ onOpenMobile }: HeaderProps) {
             <span>100% Client-Side Engine</span>
           </div>
 
-          <div className="h-4 w-px bg-slate-200 hidden sm:block" />
+          
 
           {/* GitHub link */}
-          <a
-            href="https://github.com/positiveabhii/kiss-the-pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1.5 text-xs font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 px-2.5 py-1.5 rounded-md transition-colors"
-          >
-            <FaGithub size={15} />
-            <span className="hidden sm:inline">GitHub</span>
-          </a>
+          
         </div>
       </header>
 

@@ -5,13 +5,13 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Free Smallpdf Alternative (No Daily Limits)",
-  description: "Tired of Smallpdf daily limits and paywalls? KissThePDF is a free, open-source alternative processing PDFs locally in your browser without uploads.",
+  description: "Tired of Smallpdf daily limits and paywalls? SikatPDF is a free, open-source alternative processing PDFs locally in your browser without uploads.",
   alternates: {
     canonical: `${siteConfig.url}/smallpdf-alternative`,
   },
   openGraph: {
     title: "Free Smallpdf Alternative (No Daily Limits) | ${siteConfig.name}",
-    description: "Tired of Smallpdf daily limits and paywalls? KissThePDF is a free, open-source alternative processing PDFs locally in your browser without uploads.",
+    description: "Tired of Smallpdf daily limits and paywalls? SikatPDF is a free, open-source alternative processing PDFs locally in your browser without uploads.",
     url: `${siteConfig.url}/smallpdf-alternative`,
     siteName: siteConfig.name,
     type: "website",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Free Smallpdf Alternative (No Daily Limits) | ${siteConfig.name}",
-    description: "Tired of Smallpdf daily limits and paywalls? KissThePDF is a free, open-source alternative processing PDFs locally in your browser without uploads.",
+    description: "Tired of Smallpdf daily limits and paywalls? SikatPDF is a free, open-source alternative processing PDFs locally in your browser without uploads.",
   },
 };
 
@@ -28,7 +28,7 @@ export default function CompetitorAlternativePage() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Free Smallpdf Alternative (No Daily Limits)",
-    "description": "Tired of Smallpdf daily limits and paywalls? KissThePDF is a free, open-source alternative processing PDFs locally in your browser without uploads.",
+    "description": "Tired of Smallpdf daily limits and paywalls? SikatPDF is a free, open-source alternative processing PDFs locally in your browser without uploads.",
   };
 
   const jsonLdFaq = {
@@ -37,18 +37,18 @@ export default function CompetitorAlternativePage() {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is KissThePDF better than Smallpdf for daily tasks?",
+      "name": "Why is SikatPDF better than Smallpdf for daily tasks?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Smallpdf restricts free users to 1-2 tasks per day before showing a paywall. KissThePDF is 100% free forever with unlimited daily operations."
+        "text": "Smallpdf restricts free users to 1-2 tasks per day before showing a paywall. SikatPDF is 100% free forever with unlimited daily operations."
       }
     },
     {
       "@type": "Question",
-      "name": "Does KissThePDF upload files to third-party servers?",
+      "name": "Does SikatPDF upload files to third-party servers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. KissThePDF processes all PDF modifications on your local machine using WebAssembly. Your confidential documents never leave your computer."
+        "text": "No. SikatPDF processes all PDF modifications on your local machine using WebAssembly. Your confidential documents never leave your computer."
       }
     },
     {
@@ -56,7 +56,7 @@ export default function CompetitorAlternativePage() {
       "name": "Are there any hidden watermarks added to exported files?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. KissThePDF never inserts watermarks or logos onto your exported PDF documents."
+        "text": "No. SikatPDF never inserts watermarks or logos onto your exported PDF documents."
       }
     }
   ]
@@ -141,16 +141,16 @@ export default function CompetitorAlternativePage() {
         <h2 className="text-2xl font-bold text-slate-900">Frequently Asked Questions</h2>
         <div className="grid gap-4 md:grid-cols-3">
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
-            <h3 className="font-semibold text-slate-900 mb-2">Why is KissThePDF better than Smallpdf for daily tasks?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">Smallpdf restricts free users to 1-2 tasks per day before showing a paywall. KissThePDF is 100% free forever with unlimited daily operations.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">Why is SikatPDF better than Smallpdf for daily tasks?</h3>
+            <p className="text-sm text-slate-600 leading-relaxed">Smallpdf restricts free users to 1-2 tasks per day before showing a paywall. SikatPDF is 100% free forever with unlimited daily operations.</p>
           </div>
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
-            <h3 className="font-semibold text-slate-900 mb-2">Does KissThePDF upload files to third-party servers?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">No. KissThePDF processes all PDF modifications on your local machine using WebAssembly. Your confidential documents never leave your computer.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">Does SikatPDF upload files to third-party servers?</h3>
+            <p className="text-sm text-slate-600 leading-relaxed">No. SikatPDF processes all PDF modifications on your local machine using WebAssembly. Your confidential documents never leave your computer.</p>
           </div>
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
             <h3 className="font-semibold text-slate-900 mb-2">Are there any hidden watermarks added to exported files?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">No. KissThePDF never inserts watermarks or logos onto your exported PDF documents.</p>
+            <p className="text-sm text-slate-600 leading-relaxed">No. SikatPDF never inserts watermarks or logos onto your exported PDF documents.</p>
           </div>
         </div>
       </section>

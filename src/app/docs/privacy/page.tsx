@@ -26,7 +26,7 @@ export default function PrivacyDocPage() {
             Privacy Model & Policy
           </h1>
           <p className="mt-2 text-base text-slate-600 leading-relaxed">
-            KissThePDF was built on a simple technical principle: <em>the most secure way to handle private user data is never to receive it at all.</em>
+            SikatPDF was built on a simple technical principle: <em>the most secure way to handle private user data is never to receive it at all.</em>
           </p>
         </div>
 
@@ -42,7 +42,7 @@ export default function PrivacyDocPage() {
               <span>100% Client-Side Architecture</span>
             </div>
             <p className="leading-relaxed">
-              KissThePDF eliminates cloud processing entirely. Every tool runs 100% locally inside your web browser environment.
+              SikatPDF eliminates cloud processing entirely. Every tool runs 100% locally inside your web browser environment.
             </p>
           </div>
         </section>
@@ -54,7 +54,7 @@ export default function PrivacyDocPage() {
             <div className="p-4 rounded-lg border border-emerald-300 bg-emerald-50/40 space-y-1">
               <span className="font-bold text-emerald-900 block text-sm">Client-Side Memory (RAM)</span>
               <p className="text-slate-600 leading-relaxed">
-                When you drag a file into KissThePDF, it is stored temporarily in your device&apos;s RAM buffer (`ArrayBuffer`). It is cleared as soon as you close or refresh the browser tab.
+                When you drag a file into SikatPDF, it is stored temporarily in your device&apos;s RAM buffer (`ArrayBuffer`). It is cleared as soon as you close or refresh the browser tab.
               </p>
             </div>
             <div className="p-4 rounded-lg border border-red-300 bg-red-50/40 space-y-1">
@@ -83,7 +83,7 @@ export default function PrivacyDocPage() {
         <section id="third-parties" className="space-y-3 pt-4 border-t border-slate-200">
           <h2 className="text-xl font-bold text-slate-900 tracking-tight">Hosting & Infrastructure Transparency</h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            The KissThePDF static web assets (HTML, CSS, compiled JS, WebAssembly binaries) are served over HTTPS via static web hosting providers (e.g. Vercel / GitHub Pages). These static CDN servers host web application assets only—they do not receive, store, or process user document files.
+            The SikatPDF static web assets (HTML, CSS, compiled JS, WebAssembly binaries) are served over HTTPS via static web hosting providers (e.g. Vercel / GitHub Pages). These static CDN servers host web application assets only—they do not receive, store, or process user document files.
           </p>
         </section>
 
@@ -91,7 +91,7 @@ export default function PrivacyDocPage() {
         <section id="no-accounts" className="space-y-3 pt-4 border-t border-slate-200">
           <h2 className="text-xl font-bold text-slate-900 tracking-tight">No User Tracking & No Accounts</h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            KissThePDF requires no registration, sign-up, passwords, or personal identity information. There are no tracking scripts or cookies collecting user document contents.
+            SikatPDF requires no registration, sign-up, passwords, or personal identity information. There are no tracking scripts or cookies collecting user document contents.
           </p>
         </section>
 

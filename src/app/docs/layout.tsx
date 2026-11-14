@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     default: `Documentation — ${siteConfig.name}`,
   },
   description:
-    "Official developer and user documentation for KissThePDF. Learn how the browser-first PDF engine works, explore 100 tools, inspect the technical architecture, or contribute to the open-source project.",
+    "Official developer and user documentation for SikatPDF. Learn how the browser-first PDF engine works, explore 100 tools, inspect the technical architecture, or contribute to the open-source project.",
   openGraph: {
     title: `Documentation — ${siteConfig.name}`,
-    description: "Official developer & product documentation for KissThePDF.",
+    description: "Official developer & product documentation for SikatPDF.",
     url: `${siteConfig.url}/docs`,
   },
 };

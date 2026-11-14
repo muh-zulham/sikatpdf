@@ -1,4 +1,5 @@
 "use client";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 import Link from "next/link";
 import { useState } from "react";
@@ -64,6 +65,7 @@ export function LandingHeader({ onSearchFocus }: LandingHeaderProps) {
               </a>
             )
           ))}
+          <ThemeToggle />
         </nav>
 
         <div className="flex flex-1 items-center justify-end gap-2 sm:gap-3">
@@ -134,6 +136,7 @@ export function LandingHeader({ onSearchFocus }: LandingHeaderProps) {
           >
             All Tools
           </a>
+          <ThemeToggle />
         </nav>
       </div>
     </header>

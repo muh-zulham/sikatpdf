@@ -89,7 +89,7 @@ export function DocsSearchModal({ isOpen, onClose }: DocsSearchModalProps) {
           {query.trim() === "" ? (
             <div className="p-8 text-center text-xs text-slate-500 space-y-2">
               <BookOpen size={24} className="mx-auto text-slate-300" />
-              <p className="font-medium text-slate-600">Search KissThePDF Documentation</p>
+              <p className="font-medium text-slate-600">Search SikatPDF Documentation</p>
               <p className="text-slate-400 max-w-xs mx-auto">
                 Type a keyword, tool name (e.g. &quot;Merge PDF&quot;), category, or technical topic.
               </p>

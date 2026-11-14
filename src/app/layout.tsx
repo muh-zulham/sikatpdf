@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { siteConfig } from "@/config/site";
 import "./globals.css";
 import Script from "next/script";
+import { PWARegister } from "@/components/pwa-register";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -110,6 +111,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#0B1F3A" />
         <meta name="msvalidate.01" content="0A3C6705B3F00C42AC17B790B5C5E6E8" />
         <script
           type="application/ld+json"
@@ -152,6 +155,20 @@ export default function RootLayout({
     gtag('config', 'G-JXBXKMH0VN');
   `}
         </Script>
+      
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function() {
+                  navigator.serviceWorker.register('/sw.js');
+                });
+              }
+            `,
+          }}
+        />
+
+        <PWARegister />
       </body>
     </html>
   );

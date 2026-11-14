@@ -6,7 +6,7 @@ import { DocsCTA } from "@/components/docs/docs-cta";
 
 export const metadata: Metadata = {
   title: "Development Setup Guide",
-  description: "Step-by-step developer guide for cloning KissThePDF, installing dependencies, running local development server, building, and linting.",
+  description: "Step-by-step developer guide for cloning SikatPDF, installing dependencies, running local development server, building, and linting.",
 };
 
 const headings = [
@@ -26,7 +26,7 @@ export default function DevelopmentDocPage() {
             Development Setup Guide
           </h1>
           <p className="mt-2 text-base text-slate-600 leading-relaxed">
-            Follow this guide to set up your local development environment and run KissThePDF on your machine.
+            Follow this guide to set up your local development environment and run SikatPDF on your machine.
           </p>
         </div>
 
@@ -53,10 +53,10 @@ export default function DevelopmentDocPage() {
             language="bash"
             filename="Terminal"
             code={`# Clone the repository
-git clone https://github.com/positiveabhii/kiss-the-pdf.git
+git clone https://github.com/muh-zulham/sikatpdf.git
 
 # Change into project directory
-cd kiss-the-pdf
+cd sikatpdf
 
 # Install dependencies
 npm install`}
@@ -126,7 +126,7 @@ npm install`}
         <section id="state-management" className="space-y-3 pt-4 border-t border-slate-200">
           <h2 className="text-xl font-bold text-slate-900 tracking-tight">State Management Rules</h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            KissThePDF relies on lightweight React state (<code className="font-mono text-xs">useState</code>, <code className="font-mono text-xs">useReducer</code>) and React Context. Do not introduce global state management libraries (such as Redux) unless complex application requirements demand it.
+            SikatPDF relies on lightweight React state (<code className="font-mono text-xs">useState</code>, <code className="font-mono text-xs">useReducer</code>) and React Context. Do not introduce global state management libraries (such as Redux) unless complex application requirements demand it.
           </p>
         </section>
 

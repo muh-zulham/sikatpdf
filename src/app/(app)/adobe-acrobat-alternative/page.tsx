@@ -5,13 +5,13 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Free Adobe Acrobat Alternative (Browser-Local)",
-  description: "Looking for a free Adobe Acrobat alternative? KissThePDF gives you 100+ browser-local PDF editing and conversion tools with no sign-in or cloud upload.",
+  description: "Looking for a free Adobe Acrobat alternative? SikatPDF gives you 100+ browser-local PDF editing and conversion tools with no sign-in or cloud upload.",
   alternates: {
     canonical: `${siteConfig.url}/adobe-acrobat-alternative`,
   },
   openGraph: {
     title: "Free Adobe Acrobat Alternative (Browser-Local) | ${siteConfig.name}",
-    description: "Looking for a free Adobe Acrobat alternative? KissThePDF gives you 100+ browser-local PDF editing and conversion tools with no sign-in or cloud upload.",
+    description: "Looking for a free Adobe Acrobat alternative? SikatPDF gives you 100+ browser-local PDF editing and conversion tools with no sign-in or cloud upload.",
     url: `${siteConfig.url}/adobe-acrobat-alternative`,
     siteName: siteConfig.name,
     type: "website",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Free Adobe Acrobat Alternative (Browser-Local) | ${siteConfig.name}",
-    description: "Looking for a free Adobe Acrobat alternative? KissThePDF gives you 100+ browser-local PDF editing and conversion tools with no sign-in or cloud upload.",
+    description: "Looking for a free Adobe Acrobat alternative? SikatPDF gives you 100+ browser-local PDF editing and conversion tools with no sign-in or cloud upload.",
   },
 };
 
@@ -28,7 +28,7 @@ export default function CompetitorAlternativePage() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Free Adobe Acrobat Alternative (Browser-Local)",
-    "description": "Looking for a free Adobe Acrobat alternative? KissThePDF gives you 100+ browser-local PDF editing and conversion tools with no sign-in or cloud upload.",
+    "description": "Looking for a free Adobe Acrobat alternative? SikatPDF gives you 100+ browser-local PDF editing and conversion tools with no sign-in or cloud upload.",
   };
 
   const jsonLdFaq = {
@@ -37,10 +37,10 @@ export default function CompetitorAlternativePage() {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How does KissThePDF compare to Adobe Acrobat Online?",
+      "name": "How does SikatPDF compare to Adobe Acrobat Online?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Adobe Acrobat Online requires Adobe ID logins, cloud uploads, and costly Creative Cloud subscriptions for full tool access. KissThePDF provides 100+ free PDF tools running instantly in your browser without sign-in."
+        "text": "Adobe Acrobat Online requires Adobe ID logins, cloud uploads, and costly Creative Cloud subscriptions for full tool access. SikatPDF provides 100+ free PDF tools running instantly in your browser without sign-in."
       }
     },
     {
@@ -48,7 +48,7 @@ export default function CompetitorAlternativePage() {
       "name": "Can I edit text and add annotations without Adobe Acrobat?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. KissThePDF provides browser-based text editing, shape drawing, strikethrough, sticky notes, checkboxes, and signature tools for free."
+        "text": "Yes. SikatPDF provides browser-based text editing, shape drawing, strikethrough, sticky notes, checkboxes, and signature tools for free."
       }
     },
     {
@@ -56,7 +56,7 @@ export default function CompetitorAlternativePage() {
       "name": "Are my confidential documents uploaded to the cloud?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Unlike Adobe Document Cloud, KissThePDF executes all rendering and processing locally on your device."
+        "text": "No. Unlike Adobe Document Cloud, SikatPDF executes all rendering and processing locally on your device."
       }
     }
   ]
@@ -141,16 +141,16 @@ export default function CompetitorAlternativePage() {
         <h2 className="text-2xl font-bold text-slate-900">Frequently Asked Questions</h2>
         <div className="grid gap-4 md:grid-cols-3">
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
-            <h3 className="font-semibold text-slate-900 mb-2">How does KissThePDF compare to Adobe Acrobat Online?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">Adobe Acrobat Online requires Adobe ID logins, cloud uploads, and costly Creative Cloud subscriptions for full tool access. KissThePDF provides 100+ free PDF tools running instantly in your browser without sign-in.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">How does SikatPDF compare to Adobe Acrobat Online?</h3>
+            <p className="text-sm text-slate-600 leading-relaxed">Adobe Acrobat Online requires Adobe ID logins, cloud uploads, and costly Creative Cloud subscriptions for full tool access. SikatPDF provides 100+ free PDF tools running instantly in your browser without sign-in.</p>
           </div>
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
             <h3 className="font-semibold text-slate-900 mb-2">Can I edit text and add annotations without Adobe Acrobat?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">Yes. KissThePDF provides browser-based text editing, shape drawing, strikethrough, sticky notes, checkboxes, and signature tools for free.</p>
+            <p className="text-sm text-slate-600 leading-relaxed">Yes. SikatPDF provides browser-based text editing, shape drawing, strikethrough, sticky notes, checkboxes, and signature tools for free.</p>
           </div>
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
             <h3 className="font-semibold text-slate-900 mb-2">Are my confidential documents uploaded to the cloud?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">No. Unlike Adobe Document Cloud, KissThePDF executes all rendering and processing locally on your device.</p>
+            <p className="text-sm text-slate-600 leading-relaxed">No. Unlike Adobe Document Cloud, SikatPDF executes all rendering and processing locally on your device.</p>
           </div>
         </div>
       </section>

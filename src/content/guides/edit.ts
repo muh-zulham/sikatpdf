@@ -10,7 +10,7 @@ export const editGuides: Guide[] = [
     description:
       "Add text, images, shapes, drawings, highlights and comments to any PDF in one editor. Free, no sign-up, and the file is edited inside your browser.",
     summary:
-      "To edit a PDF, open it in KissThePDF's Edit PDF tool, pick a tool from the toolbar (Text, Image, shapes, Draw, Pen, Highlight, Whiteout, Sticky note, Comment and more), click or drag on the page, adjust the style in the side panel, then click Save PDF and download the edited file.",
+      "To edit a PDF, open it in SikatPDF's Edit PDF tool, pick a tool from the toolbar (Text, Image, shapes, Draw, Pen, Highlight, Whiteout, Sticky note, Comment and more), click or drag on the page, adjust the style in the side panel, then click Save PDF and download the edited file.",
     published: "2026-11-03",
     sections: [
       {
@@ -138,7 +138,7 @@ export const editGuides: Guide[] = [
     description:
       "Click anywhere on a PDF page and type. Pick Helvetica, Times or Courier, set size, color and alignment, then save. Free, private, and no account needed.",
     summary:
-      "To add text to a PDF, open the file in KissThePDF's Add Text tool, click where the text should start and type. Press Escape or click away to finish, set the font, size, color and alignment in the side panel, then click Save PDF. You can type on any page, including scanned ones.",
+      "To add text to a PDF, open the file in SikatPDF's Add Text tool, click where the text should start and type. Press Escape or click away to finish, set the font, size, color and alignment in the side panel, then click Save PDF. You can type on any page, including scanned ones.",
     published: "2026-11-03",
     sections: [
       {
@@ -262,7 +262,7 @@ export const editGuides: Guide[] = [
     description:
       "Insert a logo, photo or stamp into an existing PDF page, then resize and position it. PNG transparency is kept. Free, no upload and no sign-up needed.",
     summary:
-      "To add an image to a PDF, open it in KissThePDF's Add Image tool, click the spot on the page where the picture should go, choose a PNG, JPG, WebP or GIF file, then drag it into place and resize it with the corner handles. Click Save PDF to download the file with the image embedded.",
+      "To add an image to a PDF, open it in SikatPDF's Add Image tool, click the spot on the page where the picture should go, choose a PNG, JPG, WebP or GIF file, then drag it into place and resize it with the corner handles. Click Save PDF to download the file with the image embedded.",
     published: "2026-11-03",
     sections: [
       {
@@ -369,7 +369,7 @@ export const editGuides: Guide[] = [
     description:
       "Draw rectangles, ellipses, lines, arrows and polygons on a PDF from one toolbar. Set stroke, fill and width. Free, no sign-up, runs in your browser.",
     summary:
-      "To add shapes to a PDF, open KissThePDF's Add Shape tool, choose Rectangle, Ellipse, Line, Arrow or Polygon from the toolbar, drag on the page (or click points for a polygon), then set Stroke, Fill and Stroke width in the side panel. Click Save PDF to download the marked-up file.",
+      "To add shapes to a PDF, open SikatPDF's Add Shape tool, choose Rectangle, Ellipse, Line, Arrow or Polygon from the toolbar, drag on the page (or click points for a polygon), then set Stroke, Fill and Stroke width in the side panel. Click Save PDF to download the marked-up file.",
     published: "2026-11-03",
     sections: [
       {
@@ -482,7 +482,7 @@ export const editGuides: Guide[] = [
     description:
       "Sketch, circle and scribble freehand on any PDF page with a mouse, trackpad, finger or stylus. Pick color and pen width. Free and fully in your browser.",
     summary:
-      "To draw on a PDF, open it in KissThePDF's Draw on PDF tool, set the Color, Pen width and Opacity in the side panel, then hold the mouse button (or touch the screen) and drag across the page. Each stroke is saved separately. Click Save PDF to download the file with your drawings.",
+      "To draw on a PDF, open it in SikatPDF's Draw on PDF tool, set the Color, Pen width and Opacity in the side panel, then hold the mouse button (or touch the screen) and drag across the page. Each stroke is saved separately. Click Save PDF to download the file with your drawings.",
     published: "2026-11-03",
     sections: [
       {
@@ -592,7 +592,7 @@ export const editGuides: Guide[] = [
     description:
       "Write or sketch on a PDF with a smoothing pen that turns shaky mouse strokes into clean curves. Pick color and width. Free, private, no sign-up.",
     summary:
-      "To use a pen tool on a PDF, open KissThePDF's Pen Tool, set the Color and Pen width, then drag on the page to write or sketch. Each stroke is smoothed into curves when you lift the pointer. Use Select to move or delete strokes, Ctrl+Z to undo, and Save PDF to download.",
+      "To use a pen tool on a PDF, open SikatPDF's Pen Tool, set the Color and Pen width, then drag on the page to write or sketch. Each stroke is smoothed into curves when you lift the pointer. Use Select to move or delete strokes, Ctrl+Z to undo, and Save PDF to download.",
     published: "2026-11-03",
     sections: [
       {
@@ -702,7 +702,7 @@ export const editGuides: Guide[] = [
     description:
       "Erase pen strokes, shapes and text you added to a PDF, and learn how to hide content that was already in the file. Free and works in your browser.",
     summary:
-      "To erase in a PDF with KissThePDF, open the Eraser tool, draw or add your marks, then click any added object to delete it or drag across pen strokes to remove them. The eraser only removes what you add in the same session; to hide content already in the PDF, cover it with Whiteout.",
+      "To erase in a PDF with SikatPDF, open the Eraser tool, draw or add your marks, then click any added object to delete it or drag across pen strokes to remove them. The eraser only removes what you add in the same session; to hide content already in the PDF, cover it with Whiteout.",
     published: "2026-11-03",
     sections: [
       {
@@ -785,7 +785,7 @@ export const editGuides: Guide[] = [
         blocks: [
           {
             type: "p",
-            text: "Desktop apps that save drawings as annotations let you remove them later. In macOS Preview, click a shape or sketch annotation and press Delete. In Adobe Acrobat, select the drawing with the selection tool and press Delete. Marks saved by KissThePDF are part of the page and can't be selected that way, so do your erasing before you close the editor.",
+            text: "Desktop apps that save drawings as annotations let you remove them later. In macOS Preview, click a shape or sketch annotation and press Delete. In Adobe Acrobat, select the drawing with the selection tool and press Delete. Marks saved by SikatPDF are part of the page and can't be selected that way, so do your erasing before you close the editor.",
           },
         ],
       },
@@ -822,7 +822,7 @@ export const editGuides: Guide[] = [
     description:
       "Highlight text in any PDF by dragging across it. Highlights snap to the text lines, in any color. Free online PDF highlighter, no upload or sign-up.",
     summary:
-      "To highlight text in a PDF, open KissThePDF's Highlight PDF tool, drag across the words you want to mark, and the highlight snaps to those lines of text. Change the Highlight color and Opacity in the side panel, highlight as many passages as you need, then click Save PDF.",
+      "To highlight text in a PDF, open SikatPDF's Highlight PDF tool, drag across the words you want to mark, and the highlight snaps to those lines of text. Change the Highlight color and Opacity in the side panel, highlight as many passages as you need, then click Save PDF.",
     published: "2026-11-03",
     sections: [
       {
@@ -942,7 +942,7 @@ export const editGuides: Guide[] = [
     description:
       "Underline words in a PDF by dragging across them. The line snaps under the text and matches its size. Free, no sign-up, processed in your browser.",
     summary:
-      "To underline text in a PDF, open KissThePDF's Underline PDF tool and drag across the words. A line snaps just below the text, with a thickness based on the font size. Pick a Color, adjust Thickness after placing it if needed, then click Save PDF to download the file.",
+      "To underline text in a PDF, open SikatPDF's Underline PDF tool and drag across the words. A line snaps just below the text, with a thickness based on the font size. Pick a Color, adjust Thickness after placing it if needed, then click Save PDF to download the file.",
     published: "2026-11-03",
     sections: [
       {

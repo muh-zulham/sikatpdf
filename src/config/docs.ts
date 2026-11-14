@@ -21,12 +21,12 @@ export const DOCS_NAV_GROUPS: DocNavGroup[] = [
       {
         title: "Overview",
         href: "/docs",
-        description: "Introduction to the KissThePDF open-source documentation system.",
+        description: "Introduction to the SikatPDF open-source documentation system.",
       },
       {
         title: "Getting Started",
         href: "/docs/getting-started",
-        description: "Learn how to use KissThePDF tools, upload files, and process PDFs.",
+        description: "Learn how to use SikatPDF tools, upload files, and process PDFs.",
       },
     ],
   },
@@ -144,7 +144,7 @@ export const DOCS_NAV_GROUPS: DocNavGroup[] = [
       {
         title: "Changelog",
         href: "/docs/changelog",
-        description: "Version history and release notes for KissThePDF releases.",
+        description: "Version history and release notes for SikatPDF releases.",
       },
     ],
   },

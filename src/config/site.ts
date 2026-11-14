@@ -1,30 +1,30 @@
 export const siteConfig = {
-  name: "KissThePDF",
-  shortName: "KissPDF",
+  name: "SikatPDF",
+  shortName: "SikatPDF",
 
-  tagline: "Free, Open-Source, Privacy-First PDF Toolkit",
+  tagline: "Alat PDF Lokal, Cepat, dan 100% Privat",
 
   description:
-    "Free, open-source PDF tools that run locally in your browser. Merge, split, compress, edit, convert, organize, rotate, protect, and manage PDF files without uploads or signup.",
+    "Alat PDF gratis yang berjalan sepenuhnya di browser Anda. Gabungkan, pisahkan, kompres, edit, dan konversi PDF tanpa upload ke server dan tanpa perlu daftar akun. Privasi Anda 100% aman.",
 
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.kissthepdf.space",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://sikatpdf.com",
 
-  githubUrl: "https://github.com/positiveabhii/kiss-the-pdf",
-  issuesUrl: "https://github.com/positiveabhii/kiss-the-pdf/issues",
-  newIssueUrl: "https://github.com/positiveabhii/kiss-the-pdf/issues/new",
+  githubUrl: "https://github.com/muh-zulham/sikatpdf",
+  issuesUrl: "https://github.com/muh-zulham/sikatpdf/issues",
+  newIssueUrl: "https://github.com/muh-zulham/sikatpdf/issues/new",
   securityUrl:
-    "https://github.com/positiveabhii/kiss-the-pdf/blob/main/SECURITY.md",
+    "https://github.com/muh-zulham/sikatpdf/blob/main/SECURITY.md",
   licenseUrl:
-    "https://github.com/positiveabhii/kiss-the-pdf/blob/main/LICENSE",
+    "https://github.com/muh-zulham/sikatpdf/blob/main/LICENSE",
   contributingUrl:
-    "https://github.com/positiveabhii/kiss-the-pdf/blob/main/CONTRIBUTING.md",
+    "https://github.com/muh-zulham/sikatpdf/blob/main/CONTRIBUTING.md",
 
   author: {
-    name: "Abhi",
-    url: "https://github.com/positiveabhii",
+    name: "SikatPDF Team",
+    url: "https://github.com/muh-zulham",
   },
 
-  logo: "/PDF.png",
+  logo: "/logo.png",
   ogImage: "/og.png",
 
   license: "MIT",
@@ -456,11 +456,11 @@ export const siteConfig = {
     // BRAND
     // =========================================================
 
-    "KissThePDF",
-    "KissPDF",
-    "KissThePDF tools",
-    "KissThePDF PDF editor",
-    "KissThePDF PDF tools",
+    "SikatPDF",
+    "SikatPDF",
+    "SikatPDF tools",
+    "SikatPDF PDF editor",
+    "SikatPDF PDF tools",
 
     // =========================================================
     // iLovePDF
@@ -477,8 +477,8 @@ export const siteConfig = {
     "iLovePDF alternative open source",
     "iLovePDF alternative privacy",
     "iLovePDF alternative free online",
-    "iLovePDF vs KissThePDF",
-    "KissThePDF vs iLovePDF",
+    "iLovePDF vs SikatPDF",
+    "SikatPDF vs iLovePDF",
 
     // =========================================================
     // Smallpdf
@@ -494,8 +494,8 @@ export const siteConfig = {
     "Smallpdf alternative no upload",
     "Smallpdf alternative open source",
     "Smallpdf alternative privacy",
-    "Smallpdf vs KissThePDF",
-    "KissThePDF vs Smallpdf",
+    "Smallpdf vs SikatPDF",
+    "SikatPDF vs Smallpdf",
 
     // =========================================================
     // PDF24
@@ -507,8 +507,8 @@ export const siteConfig = {
     "PDF24 alternatives",
     "free PDF24 alternative",
     "PDF24 online alternative",
-    "PDF24 vs KissThePDF",
-    "KissThePDF vs PDF24",
+    "PDF24 vs SikatPDF",
+    "SikatPDF vs PDF24",
 
     // =========================================================
     // Sejda
@@ -522,8 +522,8 @@ export const siteConfig = {
     "Sejda alternative free",
     "Sejda alternative no signup",
     "Sejda alternative privacy",
-    "Sejda vs KissThePDF",
-    "KissThePDF vs Sejda",
+    "Sejda vs SikatPDF",
+    "SikatPDF vs Sejda",
 
     // =========================================================
     // PDFescape
@@ -534,8 +534,8 @@ export const siteConfig = {
     "PDFescape alternatives",
     "free PDFescape alternative",
     "PDFescape alternative free",
-    "PDFescape vs KissThePDF",
-    "KissThePDF vs PDFescape",
+    "PDFescape vs SikatPDF",
+    "SikatPDF vs PDFescape",
 
     // =========================================================
     // Adobe Acrobat
@@ -550,8 +550,8 @@ export const siteConfig = {
     "Adobe PDF editor alternative",
     "Acrobat alternative",
     "Acrobat online alternative",
-    "Adobe Acrobat vs KissThePDF",
-    "KissThePDF vs Adobe Acrobat",
+    "Adobe Acrobat vs SikatPDF",
+    "SikatPDF vs Adobe Acrobat",
 
     // =========================================================
     // Foxit
@@ -563,8 +563,8 @@ export const siteConfig = {
     "Foxit alternatives",
     "free Foxit PDF alternative",
     "Foxit PDF Editor alternative",
-    "Foxit vs KissThePDF",
-    "KissThePDF vs Foxit",
+    "Foxit vs SikatPDF",
+    "SikatPDF vs Foxit",
 
     // =========================================================
     // Xodo
@@ -575,8 +575,8 @@ export const siteConfig = {
     "Xodo alternatives",
     "free Xodo alternative",
     "Xodo PDF Editor alternative",
-    "Xodo vs KissThePDF",
-    "KissThePDF vs Xodo",
+    "Xodo vs SikatPDF",
+    "SikatPDF vs Xodo",
 
     // =========================================================
     // PDF Candy
@@ -586,8 +586,8 @@ export const siteConfig = {
     "PDF Candy alternative",
     "PDF Candy alternatives",
     "free PDF Candy alternative",
-    "PDF Candy vs KissThePDF",
-    "KissThePDF vs PDF Candy",
+    "PDF Candy vs SikatPDF",
+    "SikatPDF vs PDF Candy",
 
     // =========================================================
     // Soda PDF
@@ -598,8 +598,8 @@ export const siteConfig = {
     "Soda PDF alternatives",
     "free Soda PDF alternative",
     "Soda PDF online alternative",
-    "Soda PDF vs KissThePDF",
-    "KissThePDF vs Soda PDF",
+    "Soda PDF vs SikatPDF",
+    "SikatPDF vs Soda PDF",
 
     // =========================================================
     // PDFsam
@@ -611,8 +611,8 @@ export const siteConfig = {
     "PDFsam alternatives",
     "free PDFsam alternative",
     "PDFsam online alternative",
-    "PDFsam vs KissThePDF",
-    "KissThePDF vs PDFsam",
+    "PDFsam vs SikatPDF",
+    "SikatPDF vs PDFsam",
 
     // =========================================================
     // Stirling PDF (fast-growing open-source competitor)
@@ -625,8 +625,8 @@ export const siteConfig = {
     "free Stirling PDF alternative",
     "open source Stirling PDF alternative",
     "Stirling PDF online alternative",
-    "Stirling PDF vs KissThePDF",
-    "KissThePDF vs Stirling PDF",
+    "Stirling PDF vs SikatPDF",
+    "SikatPDF vs Stirling PDF",
     "Stirling PDF self hosted alternative",
 
     // =========================================================
@@ -638,8 +638,8 @@ export const siteConfig = {
     "DocHub alternatives",
     "free DocHub alternative",
     "DocHub PDF editor alternative",
-    "DocHub vs KissThePDF",
-    "KissThePDF vs DocHub",
+    "DocHub vs SikatPDF",
+    "SikatPDF vs DocHub",
 
     // =========================================================
     // Wondershare PDFelement
@@ -651,8 +651,8 @@ export const siteConfig = {
     "PDFelement alternatives",
     "free PDFelement alternative",
     "PDFelement PDF editor alternative",
-    "PDFelement vs KissThePDF",
-    "KissThePDF vs PDFelement",
+    "PDFelement vs SikatPDF",
+    "SikatPDF vs PDFelement",
 
     // =========================================================
     // TinyWow, pdfFiller, Nitro, DeftPDF, CleverPDF, PDF Candy — newer
@@ -663,27 +663,27 @@ export const siteConfig = {
     "TinyWow alternative",
     "TinyWow PDF alternative",
     "free TinyWow alternative",
-    "TinyWow vs KissThePDF",
+    "TinyWow vs SikatPDF",
 
     "pdfFiller",
     "pdfFiller alternative",
     "pdfFiller alternatives",
     "free pdfFiller alternative",
-    "pdfFiller vs KissThePDF",
+    "pdfFiller vs SikatPDF",
 
     "Nitro PDF",
     "Nitro PDF alternative",
     "Nitro PDF alternatives",
     "free Nitro PDF alternative",
-    "Nitro PDF vs KissThePDF",
+    "Nitro PDF vs SikatPDF",
 
     "DeftPDF",
     "DeftPDF alternative",
-    "DeftPDF vs KissThePDF",
+    "DeftPDF vs SikatPDF",
 
     "CleverPDF",
     "CleverPDF alternative",
-    "CleverPDF vs KissThePDF",
+    "CleverPDF vs SikatPDF",
 
     "pdf.net",
     "pdf.net alternative",

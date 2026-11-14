@@ -59,11 +59,11 @@ export function MobileSidebar({ isOpen, setIsOpen }: MobileSidebarProps) {
       <div className="fixed inset-y-0 left-0 w-72 bg-white shadow-xl flex flex-col z-10 animate-in slide-in-from-left duration-200">
         <div className="flex h-[52px] items-center justify-between px-4 border-b border-slate-200/80">
           <Link href="/" className="flex items-center gap-2.5" onClick={() => setIsOpen(false)}>
-            <div className="p-1 rounded bg-slate-900 shrink-0">
-              <Image src="/PDF.png" alt="KissThePDF Logo" width={18} height={18} className="rounded-2xs invert brightness-200" />
+            <div className="shrink-0 flex items-center justify-center">
+              <Image src="/logo.png" alt="SikatPDF Logo" width={18} height={18} className="rounded-2xs" />
             </div>
             <span className="font-semibold text-xs tracking-tight text-slate-900">
-              KissThePDF 100 Tools
+              SikatPDF 100 Tools
             </span>
           </Link>
           <button 

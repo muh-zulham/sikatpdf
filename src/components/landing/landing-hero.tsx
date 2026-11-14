@@ -114,7 +114,7 @@ export function LandingHero() {
               rel="noopener noreferrer"
             >
               <img
-                alt="KissThePDF - Open Source Privacy First PDF Tool | Product Hunt"
+                alt="SikatPDF - Open Source Privacy First PDF Tool | Product Hunt"
                 width="250"
                 height="54"
                 src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1246996&amp;theme=light&amp;t=1789722615023"
@@ -127,7 +127,7 @@ export function LandingHero() {
             >
               <img
                 src="https://peerlist.io/api/v1/projects/embed/PRJHP6LB9PMA6ARMK1QG6MEAJAA6AK?showUpvote=false&theme=light"
-                alt="KissThePDF — Free, Open-Source PDF Toolkit"
+                alt="SikatPDF — Free, Open-Source PDF Toolkit"
                 style={{width: "auto", height: "72px"}}
               />
             </a>

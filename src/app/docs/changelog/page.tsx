@@ -5,7 +5,7 @@ import { DocsCTA } from "@/components/docs/docs-cta";
 
 export const metadata: Metadata = {
   title: "Changelog & Release Notes",
-  description: "Official release history and version changelog for KissThePDF releases.",
+  description: "Official release history and version changelog for SikatPDF releases.",
 };
 
 const headings = [
@@ -21,7 +21,7 @@ export default function ChangelogDocPage() {
             Changelog & Release Notes
           </h1>
           <p className="mt-2 text-base text-slate-600 leading-relaxed">
-            Track new features, performance improvements, bug fixes, and engine updates for KissThePDF.
+            Track new features, performance improvements, bug fixes, and engine updates for SikatPDF.
           </p>
         </div>
 

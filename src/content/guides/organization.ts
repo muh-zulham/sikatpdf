@@ -9,7 +9,7 @@ export const organizationGuides: Guide[] = [
     description:
       "Copy one page or many pages inside a PDF in three steps. Choose up to 10 copies and where they go. Free, no sign-up, and your file never leaves your browser.",
     summary:
-      "To duplicate a page in a PDF, open the file in KissThePDF's Duplicate Pages tool, click the page thumbnails you want to copy, choose how many copies (1–10) and whether they go right after each original or at the end, then click Duplicate pages and download the new PDF.",
+      "To duplicate a page in a PDF, open the file in SikatPDF's Duplicate Pages tool, click the page thumbnails you want to copy, choose how many copies (1–10) and whether they go right after each original or at the end, then click Duplicate pages and download the new PDF.",
     published: "2026-11-03",
     sections: [
       {
@@ -108,7 +108,7 @@ export const organizationGuides: Guide[] = [
       },
       {
         question: "Is my PDF uploaded to a server?",
-        answer: "No. KissThePDF processes the file inside your browser, so the document never leaves your device.",
+        answer: "No. SikatPDF processes the file inside your browser, so the document never leaves your device.",
       },
       {
         question: "Can I duplicate pages in a password-protected PDF?",
@@ -125,7 +125,7 @@ export const organizationGuides: Guide[] = [
     description:
       "Combine two or more PDFs into one file, set their order, and choose which pages to keep from each. Free, no sign-up, and nothing is uploaded.",
     summary:
-      "To merge PDF files, open KissThePDF's Merge PDF tool and add two or more PDFs. Drag them into the order you want, type a page range next to any file you only need part of, then click the Merge button and download one combined PDF.",
+      "To merge PDF files, open SikatPDF's Merge PDF tool and add two or more PDFs. Drag them into the order you want, type a page range next to any file you only need part of, then click the Merge button and download one combined PDF.",
     published: "2026-11-03",
     sections: [
       {
@@ -244,7 +244,7 @@ export const organizationGuides: Guide[] = [
     description:
       "Split a PDF by custom page ranges, into single pages, or every N pages, then download the parts one by one or as a ZIP. Free and private.",
     summary:
-      "To split a PDF, open KissThePDF's Split PDF tool, add the file, and pick a mode under How to split: Custom ranges, Every page, Every N pages, or Ranges into one file. Enter the ranges or page count, check the list of files it will create, click Split PDF, and download the parts or a ZIP.",
+      "To split a PDF, open SikatPDF's Split PDF tool, add the file, and pick a mode under How to split: Custom ranges, Every page, Every N pages, or Ranges into one file. Enter the ranges or page count, check the list of files it will create, click Split PDF, and download the parts or a ZIP.",
     published: "2026-11-03",
     sections: [
       {
@@ -351,7 +351,7 @@ export const organizationGuides: Guide[] = [
     description:
       "Pick pages by clicking thumbnails or typing a range, then save just those pages as a new PDF. Free, no sign-up, and your file stays on your device.",
     summary:
-      "To extract pages from a PDF, open KissThePDF's Extract Pages tool and add the file. Click the thumbnails of the pages you want, or type them in the Pages to extract box, such as 1-3, 7. Then click Extract pages and download a new PDF that holds only those pages.",
+      "To extract pages from a PDF, open SikatPDF's Extract Pages tool and add the file. Click the thumbnails of the pages you want, or type them in the Pages to extract box, such as 1-3, 7. Then click Extract pages and download a new PDF that holds only those pages.",
     published: "2026-11-03",
     sections: [
       {

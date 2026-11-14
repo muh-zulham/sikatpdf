@@ -7,39 +7,39 @@ import { Reveal } from "./reveal";
 
 const FAQ_ITEMS = [
   {
-    question: "Is KissPDF free?",
+    question: "Is SikatPDF free?",
     answer:
-      "Yes. KissPDF is completely free. There is no subscription, no paywall, and no payment required to use any tool.",
+      "Yes. SikatPDF is completely free. There is no subscription, no paywall, and no payment required to use any tool.",
   },
   {
     question: "Do I need to create an account?",
     answer:
-      "No. KissPDF does not require signup, login, or an account. Open a tool and start working immediately.",
+      "No. SikatPDF does not require signup, login, or an account. Open a tool and start working immediately.",
   },
   {
     question: "Do I need to upload my PDFs?",
     answer:
-      "For supported browser-based tools, your files are processed locally in your browser. They are not uploaded to a KissPDF server for those tools.",
+      "For supported browser-based tools, your files are processed locally in your browser. They are not uploaded to a SikatPDF server for those tools.",
   },
   {
-    question: "Does KissPDF work on mobile?",
+    question: "Does SikatPDF work on mobile?",
     answer:
-      "Yes. KissPDF works in modern mobile browsers. Some tools with heavy processing may work best on desktop devices with more memory.",
+      "Yes. SikatPDF works in modern mobile browsers. Some tools with heavy processing may work best on desktop devices with more memory.",
   },
   {
-    question: "Can I use KissPDF offline?",
+    question: "Can I use SikatPDF offline?",
     answer:
       "Once the page is loaded, some tools may continue to work offline depending on your browser. Full offline support is not guaranteed for all tools.",
   },
   {
     question: "What PDF tools are available?",
     answer:
-      "KissPDF offers 100 PDF tools covering organization, page manipulation, conversion, editing, security, forms, enhancement, and reading. Several tools are available now, with more being added over time.",
+      "SikatPDF offers 100 PDF tools covering organization, page manipulation, conversion, editing, security, forms, enhancement, and reading. Several tools are available now, with more being added over time.",
   },
   {
     question: "Are my files stored?",
     answer:
-      "For browser-based tools, files are processed on your device and are not stored on KissPDF servers. We do not retain your documents after processing.",
+      "For browser-based tools, files are processed on your device and are not stored on SikatPDF servers. We do not retain your documents after processing.",
   },
   {
     question: "Is there a file-size limit?",
@@ -52,9 +52,9 @@ const FAQ_ITEMS = [
       "Yes. Tools like Merge PDF support multiple files. Other tools process one document at a time with options for multiple pages or outputs.",
   },
   {
-    question: "Does KissPDF work on Windows and Mac?",
+    question: "Does SikatPDF work on Windows and Mac?",
     answer:
-      "Yes. KissPDF runs in any modern web browser on Windows, Mac, Linux, and mobile operating systems. No installation is required.",
+      "Yes. SikatPDF runs in any modern web browser on Windows, Mac, Linux, and mobile operating systems. No installation is required.",
   },
 ];
 
@@ -69,7 +69,7 @@ export function FaqSection() {
         <Reveal>
           <div className="text-center mb-12">
             <h2 className="kp-heading text-[var(--kp-text)] mb-3">Common questions</h2>
-            <p className="text-[var(--kp-text-muted)]">Straight answers about how KissPDF works.</p>
+            <p className="text-[var(--kp-text-muted)]">Straight answers about how SikatPDF works.</p>
           </div>
         </Reveal>
 

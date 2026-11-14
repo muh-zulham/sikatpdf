@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { DOCS_NAV_GROUPS } from "@/config/docs";
 import { siteConfig } from "@/config/site";
-import { FaGithub } from "react-icons/fa";
 import { ExternalLink, BookOpen, Layers, ShieldCheck, Terminal, HelpCircle } from "lucide-react";
 
 interface DocsSidebarProps {
@@ -41,7 +40,7 @@ export function DocsSidebar({ onCloseMobile }: DocsSidebarProps) {
           <div className="bg-orange-500 text-white font-extrabold text-xs px-2 py-1 rounded-md shadow-2xs">
             DOCS
           </div>
-          <span className="text-sm font-semibold tracking-tight">KissThePDF</span>
+          <span className="text-sm font-semibold tracking-tight">SikatPDF</span>
         </Link>
         <span className="text-[10px] font-mono text-slate-500 bg-slate-100 border border-slate-200 px-1.5 py-0.5 rounded">
           v0.1.0
@@ -71,7 +70,6 @@ export function DocsSidebar({ onCloseMobile }: DocsSidebarProps) {
                         className="group flex items-center justify-between px-2.5 py-1.5 text-xs font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-100 rounded-md transition-colors"
                       >
                         <span className="flex items-center gap-2">
-                          <FaGithub size={13} className="text-slate-400 group-hover:text-slate-700" />
                           {item.title}
                         </span>
                         <ExternalLink size={11} className="text-slate-400" />

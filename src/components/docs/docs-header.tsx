@@ -1,9 +1,9 @@
 "use client";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, Search, ChevronRight, Command, BookOpen } from "lucide-react";
-import { FaGithub } from "react-icons/fa";
 import { siteConfig } from "@/config/site";
 import { tools } from "@/config/tools";
 import { CATEGORY_DETAILS } from "@/config/docs";
@@ -66,7 +66,7 @@ export function DocsHeader({ onOpenMobileSidebar, onOpenSearch }: DocsHeaderProp
         {/* Breadcrumb Navigation */}
         <nav aria-label="Documentation Breadcrumbs" className="flex items-center gap-1.5 text-xs font-medium text-slate-500 truncate">
           <Link href="/" className="hover:text-slate-900 transition-colors shrink-0 font-semibold text-slate-700">
-            KissThePDF
+            SikatPDF
           </Link>
           <ChevronRight size={12} className="text-slate-400 shrink-0" />
           {crumbs.map((crumb, idx) => {
@@ -84,6 +84,7 @@ export function DocsHeader({ onOpenMobileSidebar, onOpenSearch }: DocsHeaderProp
               </div>
             );
           })}
+          <ThemeToggle />
         </nav>
       </div>
 
@@ -102,18 +103,9 @@ export function DocsHeader({ onOpenMobileSidebar, onOpenSearch }: DocsHeaderProp
           </kbd>
         </button>
 
-        <div className="h-4 w-px bg-slate-200 hidden sm:block" />
 
-        {/* GitHub Star Link */}
-        <a
-          href={siteConfig.githubUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-1.5 text-xs font-medium text-slate-700 hover:text-slate-900 hover:bg-slate-100 px-2.5 py-1.5 rounded-md transition-colors"
-        >
-          <FaGithub size={15} />
-          <span className="hidden sm:inline font-semibold">Star on GitHub</span>
-        </a>
+        
+        
       </div>
     </header>
   );

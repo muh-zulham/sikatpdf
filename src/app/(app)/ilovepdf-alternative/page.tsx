@@ -5,13 +5,13 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Free iLovePDF Alternative (100% Client-Side)",
-  description: "Looking for a free alternative to iLovePDF? KissThePDF processes documents locally in your browser with no upload limits, paywalls, or privacy risks.",
+  description: "Looking for a free alternative to iLovePDF? SikatPDF processes documents locally in your browser with no upload limits, paywalls, or privacy risks.",
   alternates: {
     canonical: `${siteConfig.url}/ilovepdf-alternative`,
   },
   openGraph: {
     title: "Free iLovePDF Alternative (100% Client-Side) | ${siteConfig.name}",
-    description: "Looking for a free alternative to iLovePDF? KissThePDF processes documents locally in your browser with no upload limits, paywalls, or privacy risks.",
+    description: "Looking for a free alternative to iLovePDF? SikatPDF processes documents locally in your browser with no upload limits, paywalls, or privacy risks.",
     url: `${siteConfig.url}/ilovepdf-alternative`,
     siteName: siteConfig.name,
     type: "website",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Free iLovePDF Alternative (100% Client-Side) | ${siteConfig.name}",
-    description: "Looking for a free alternative to iLovePDF? KissThePDF processes documents locally in your browser with no upload limits, paywalls, or privacy risks.",
+    description: "Looking for a free alternative to iLovePDF? SikatPDF processes documents locally in your browser with no upload limits, paywalls, or privacy risks.",
   },
 };
 
@@ -28,7 +28,7 @@ export default function CompetitorAlternativePage() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Free iLovePDF Alternative (100% Client-Side)",
-    "description": "Looking for a free alternative to iLovePDF? KissThePDF processes documents locally in your browser with no upload limits, paywalls, or privacy risks.",
+    "description": "Looking for a free alternative to iLovePDF? SikatPDF processes documents locally in your browser with no upload limits, paywalls, or privacy risks.",
   };
 
   const jsonLdFaq = {
@@ -37,10 +37,10 @@ export default function CompetitorAlternativePage() {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What makes KissThePDF a better alternative to iLovePDF?",
+      "name": "What makes SikatPDF a better alternative to iLovePDF?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "iLovePDF requires uploading your files to remote cloud servers and restricts batch processing and file sizes for free users. KissThePDF processes everything locally on your device with no limits."
+        "text": "iLovePDF requires uploading your files to remote cloud servers and restricts batch processing and file sizes for free users. SikatPDF processes everything locally on your device with no limits."
       }
     },
     {
@@ -48,15 +48,15 @@ export default function CompetitorAlternativePage() {
       "name": "Do I need to create an account like iLovePDF?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No account, email, or sign-in is required on KissThePDF. You can use all 100+ tools immediately."
+        "text": "No account, email, or sign-in is required on SikatPDF. You can use all 100+ tools immediately."
       }
     },
     {
       "@type": "Question",
-      "name": "Can KissThePDF merge, split, and compress PDFs like iLovePDF?",
+      "name": "Can SikatPDF merge, split, and compress PDFs like iLovePDF?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. KissThePDF includes high-performance tools for merging, splitting, compressing, converting, and editing PDFs entirely inside your browser."
+        "text": "Yes. SikatPDF includes high-performance tools for merging, splitting, compressing, converting, and editing PDFs entirely inside your browser."
       }
     }
   ]
@@ -141,16 +141,16 @@ export default function CompetitorAlternativePage() {
         <h2 className="text-2xl font-bold text-slate-900">Frequently Asked Questions</h2>
         <div className="grid gap-4 md:grid-cols-3">
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
-            <h3 className="font-semibold text-slate-900 mb-2">What makes KissThePDF a better alternative to iLovePDF?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">iLovePDF requires uploading your files to remote cloud servers and restricts batch processing and file sizes for free users. KissThePDF processes everything locally on your device with no limits.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">What makes SikatPDF a better alternative to iLovePDF?</h3>
+            <p className="text-sm text-slate-600 leading-relaxed">iLovePDF requires uploading your files to remote cloud servers and restricts batch processing and file sizes for free users. SikatPDF processes everything locally on your device with no limits.</p>
           </div>
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
             <h3 className="font-semibold text-slate-900 mb-2">Do I need to create an account like iLovePDF?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">No account, email, or sign-in is required on KissThePDF. You can use all 100+ tools immediately.</p>
+            <p className="text-sm text-slate-600 leading-relaxed">No account, email, or sign-in is required on SikatPDF. You can use all 100+ tools immediately.</p>
           </div>
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
-            <h3 className="font-semibold text-slate-900 mb-2">Can KissThePDF merge, split, and compress PDFs like iLovePDF?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">Yes. KissThePDF includes high-performance tools for merging, splitting, compressing, converting, and editing PDFs entirely inside your browser.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">Can SikatPDF merge, split, and compress PDFs like iLovePDF?</h3>
+            <p className="text-sm text-slate-600 leading-relaxed">Yes. SikatPDF includes high-performance tools for merging, splitting, compressing, converting, and editing PDFs entirely inside your browser.</p>
           </div>
         </div>
       </section>

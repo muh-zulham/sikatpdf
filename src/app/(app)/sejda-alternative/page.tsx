@@ -5,13 +5,13 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Free Sejda PDF Alternative (Local & Private)",
-  description: "Looking for a free Sejda PDF alternative? KissThePDF processes PDFs locally in your browser with no 3 tasks/hour limit and zero file uploads.",
+  description: "Looking for a free Sejda PDF alternative? SikatPDF processes PDFs locally in your browser with no 3 tasks/hour limit and zero file uploads.",
   alternates: {
     canonical: `${siteConfig.url}/sejda-alternative`,
   },
   openGraph: {
     title: "Free Sejda PDF Alternative (Local & Private) | ${siteConfig.name}",
-    description: "Looking for a free Sejda PDF alternative? KissThePDF processes PDFs locally in your browser with no 3 tasks/hour limit and zero file uploads.",
+    description: "Looking for a free Sejda PDF alternative? SikatPDF processes PDFs locally in your browser with no 3 tasks/hour limit and zero file uploads.",
     url: `${siteConfig.url}/sejda-alternative`,
     siteName: siteConfig.name,
     type: "website",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Free Sejda PDF Alternative (Local & Private) | ${siteConfig.name}",
-    description: "Looking for a free Sejda PDF alternative? KissThePDF processes PDFs locally in your browser with no 3 tasks/hour limit and zero file uploads.",
+    description: "Looking for a free Sejda PDF alternative? SikatPDF processes PDFs locally in your browser with no 3 tasks/hour limit and zero file uploads.",
   },
 };
 
@@ -28,7 +28,7 @@ export default function CompetitorAlternativePage() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Free Sejda PDF Alternative (Local & Private)",
-    "description": "Looking for a free Sejda PDF alternative? KissThePDF processes PDFs locally in your browser with no 3 tasks/hour limit and zero file uploads.",
+    "description": "Looking for a free Sejda PDF alternative? SikatPDF processes PDFs locally in your browser with no 3 tasks/hour limit and zero file uploads.",
   };
 
   const jsonLdFaq = {
@@ -37,18 +37,18 @@ export default function CompetitorAlternativePage() {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why switch from Sejda PDF to KissThePDF?",
+      "name": "Why switch from Sejda PDF to SikatPDF?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sejda enforces a 3 tasks per hour limit and 50MB file size caps on free users, while uploading documents to cloud servers. KissThePDF has unlimited usage and runs 100% locally in your browser without uploads."
+        "text": "Sejda enforces a 3 tasks per hour limit and 50MB file size caps on free users, while uploading documents to cloud servers. SikatPDF has unlimited usage and runs 100% locally in your browser without uploads."
       }
     },
     {
       "@type": "Question",
-      "name": "Is KissThePDF really completely free?",
+      "name": "Is SikatPDF really completely free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. KissThePDF is an open-source project licensed under MIT. All 100+ PDF tools are free with no subscriptions or paywalls."
+        "text": "Yes. SikatPDF is an open-source project licensed under MIT. All 100+ PDF tools are free with no subscriptions or paywalls."
       }
     },
     {
@@ -56,7 +56,7 @@ export default function CompetitorAlternativePage() {
       "name": "Are my files safer than on Sejda?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. While Sejda uploads files to remote servers, KissThePDF executes all processing inside your browser sandbox via WebAssembly. Your files never leave your computer."
+        "text": "Yes. While Sejda uploads files to remote servers, SikatPDF executes all processing inside your browser sandbox via WebAssembly. Your files never leave your computer."
       }
     }
   ]
@@ -141,16 +141,16 @@ export default function CompetitorAlternativePage() {
         <h2 className="text-2xl font-bold text-slate-900">Frequently Asked Questions</h2>
         <div className="grid gap-4 md:grid-cols-3">
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
-            <h3 className="font-semibold text-slate-900 mb-2">Why switch from Sejda PDF to KissThePDF?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">Sejda enforces a 3 tasks per hour limit and 50MB file size caps on free users, while uploading documents to cloud servers. KissThePDF has unlimited usage and runs 100% locally in your browser without uploads.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">Why switch from Sejda PDF to SikatPDF?</h3>
+            <p className="text-sm text-slate-600 leading-relaxed">Sejda enforces a 3 tasks per hour limit and 50MB file size caps on free users, while uploading documents to cloud servers. SikatPDF has unlimited usage and runs 100% locally in your browser without uploads.</p>
           </div>
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
-            <h3 className="font-semibold text-slate-900 mb-2">Is KissThePDF really completely free?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">Yes. KissThePDF is an open-source project licensed under MIT. All 100+ PDF tools are free with no subscriptions or paywalls.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">Is SikatPDF really completely free?</h3>
+            <p className="text-sm text-slate-600 leading-relaxed">Yes. SikatPDF is an open-source project licensed under MIT. All 100+ PDF tools are free with no subscriptions or paywalls.</p>
           </div>
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
             <h3 className="font-semibold text-slate-900 mb-2">Are my files safer than on Sejda?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">Yes. While Sejda uploads files to remote servers, KissThePDF executes all processing inside your browser sandbox via WebAssembly. Your files never leave your computer.</p>
+            <p className="text-sm text-slate-600 leading-relaxed">Yes. While Sejda uploads files to remote servers, SikatPDF executes all processing inside your browser sandbox via WebAssembly. Your files never leave your computer.</p>
           </div>
         </div>
       </section>

@@ -65,8 +65,8 @@ export function PrivacySection() {
                         <p className="kp-label text-(--kp-accent) mb-4 opacity-80">Privacy first</p>
             <h2 className="kp-heading text-white mb-5">Your files. Your device.</h2>
             <p className="text-white/65 text-lg leading-relaxed mb-6 max-w-lg">
-              KissPDF is designed around browser-based processing. For supported tools, your files
-              can be processed locally without being uploaded to a KissPDF server.
+              SikatPDF is designed around browser-based processing. For supported tools, your files
+              can be processed locally without being uploaded to a SikatPDF server.
             </p>
             <p className="text-white/40 text-sm leading-relaxed max-w-lg">
               Processing capabilities vary by tool. Tools that run entirely in your browser handle

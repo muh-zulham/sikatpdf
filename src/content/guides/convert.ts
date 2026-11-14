@@ -11,7 +11,7 @@ export const convertGuides: Guide[] = [
     description:
       "Turn one JPG or up to 20 photos into a single PDF. Pick A4, Letter or the photo's own size. Free, no sign-up, and your images never leave your browser.",
     summary:
-      "To convert JPG to PDF, open KissThePDF's JPG to PDF tool, drop in up to 20 JPG or JPEG files, put them in order with the Up and Down buttons, choose a page size (A4, Letter or Fit to image) and an orientation, then click Convert to PDF and download. Standard JPEGs are embedded byte for byte, so nothing is re-compressed.",
+      "To convert JPG to PDF, open SikatPDF's JPG to PDF tool, drop in up to 20 JPG or JPEG files, put them in order with the Up and Down buttons, choose a page size (A4, Letter or Fit to image) and an orientation, then click Convert to PDF and download. Standard JPEGs are embedded byte for byte, so nothing is re-compressed.",
     published: "2026-11-03",
     sections: [
       {
@@ -139,7 +139,7 @@ export const convertGuides: Guide[] = [
     description:
       "Convert PNG screenshots, logos and diagrams to PDF losslessly. Keep transparent backgrounds or fill them with white or any colour. Free and fully in-browser.",
     summary:
-      "To convert PNG to PDF, open KissThePDF's PNG to PDF tool, add up to 100 PNG files, order them, choose a page size, margin and image placement, then set Page background to None (keep transparency), White or a custom colour. Click Convert to PDF and download. The PNG data is embedded losslessly, so text in screenshots stays crisp.",
+      "To convert PNG to PDF, open SikatPDF's PNG to PDF tool, add up to 100 PNG files, order them, choose a page size, margin and image placement, then set Page background to None (keep transparency), White or a custom colour. Click Convert to PDF and download. The PNG data is embedded losslessly, so text in screenshots stays crisp.",
     published: "2026-11-03",
     sections: [
       {
@@ -262,7 +262,7 @@ export const convertGuides: Guide[] = [
     description:
       "Convert WebP images saved from websites into a PDF. Transparent WebP files keep their transparency, and nothing leaves your browser. Free, no sign-up needed.",
     summary:
-      "To convert WebP to PDF, open KissThePDF's WebP to PDF tool, add up to 100 .webp files, order them with Up and Down, choose page size, orientation, margin, image placement and page background, then click Convert to PDF and download. Your browser decodes each WebP and the tool embeds it as PNG or JPEG, because PDF has no native WebP support.",
+      "To convert WebP to PDF, open SikatPDF's WebP to PDF tool, add up to 100 .webp files, order them with Up and Down, choose page size, orientation, margin, image placement and page background, then click Convert to PDF and download. Your browser decodes each WebP and the tool embeds it as PNG or JPEG, because PDF has no native WebP support.",
     published: "2026-11-03",
     sections: [
       {
@@ -296,7 +296,7 @@ export const convertGuides: Guide[] = [
         blocks: [
           {
             type: "p",
-            text: "The PDF format has no WebP image type, so every converter has to translate the image. KissThePDF lets your browser decode the WebP, then checks the pixels. If any pixel is transparent, the image is stored as a lossless PNG and the transparency survives. If the image is fully opaque, it is stored as a JPEG at 92% quality, which keeps the file small.",
+            text: "The PDF format has no WebP image type, so every converter has to translate the image. SikatPDF lets your browser decode the WebP, then checks the pixels. If any pixel is transparent, the image is stored as a lossless PNG and the transparency survives. If the image is fully opaque, it is stored as a JPEG at 92% quality, which keeps the file small.",
           },
           {
             type: "p",
@@ -372,7 +372,7 @@ export const convertGuides: Guide[] = [
     description:
       "Convert static or animated GIFs to PDF. Put every animation frame on its own page, or keep only the first frame. Free, no sign-up, and files stay on your device.",
     summary:
-      "To convert a GIF to PDF, open KissThePDF's GIF to PDF tool and add your GIFs. For animated files, set Animated GIFs to Every frame as a page or First frame only. Choose page size, margin and background, then click Convert to PDF. The button shows the final page count before you start, for example (24 pages).",
+      "To convert a GIF to PDF, open SikatPDF's GIF to PDF tool and add your GIFs. For animated files, set Animated GIFs to Every frame as a page or First frame only. Choose page size, margin and background, then click Convert to PDF. The button shows the final page count before you start, for example (24 pages).",
     published: "2026-11-03",
     sections: [
       {
@@ -487,7 +487,7 @@ export const convertGuides: Guide[] = [
     description:
       "Convert BMP and DIB bitmap images to a compact PDF. Combine many bitmaps into one file and set page size and margins. Free, no sign-up, processed in your browser.",
     summary:
-      "To convert a bitmap to PDF, open KissThePDF's BMP to PDF tool, add your .bmp or .dib files (up to 100, 25 MB each), arrange them, choose page size, orientation, margin and image placement, then click Convert to PDF and download. The uncompressed bitmap is stored as a compressed image, so the PDF is usually far smaller than the BMP.",
+      "To convert a bitmap to PDF, open SikatPDF's BMP to PDF tool, add your .bmp or .dib files (up to 100, 25 MB each), arrange them, choose page size, orientation, margin and image placement, then click Convert to PDF and download. The uncompressed bitmap is stored as a compressed image, so the PDF is usually far smaller than the BMP.",
     published: "2026-11-03",
     sections: [
       {
@@ -597,7 +597,7 @@ export const convertGuides: Guide[] = [
     description:
       "Convert single or multi-page TIFF scans and faxes to PDF. Every page in the TIFF becomes a PDF page. Free, no upload, files up to 100 MB each.",
     summary:
-      "To convert TIFF to PDF, open KissThePDF's TIFF to PDF tool and add your .tif or .tiff files (up to 50, 100 MB each). Multi-page TIFFs show a page count on their card and every page is converted. Choose A4 or Letter for scans, set margin and placement, then click Convert to PDF and download.",
+      "To convert TIFF to PDF, open SikatPDF's TIFF to PDF tool and add your .tif or .tiff files (up to 50, 100 MB each). Multi-page TIFFs show a page count on their card and every page is converted. Choose A4 or Letter for scans, set margin and placement, then click Convert to PDF and download.",
     published: "2026-11-03",
     sections: [
       {
@@ -710,7 +710,7 @@ export const convertGuides: Guide[] = [
     description:
       "Convert SVG files to print-ready PDF pages at 150, 300 or 600 DPI. Learn when you need true vector output and how to get it in Inkscape, Java or C#.",
     summary:
-      "To convert SVG to PDF online, open KissThePDF's SVG to PDF tool, add your SVG files, pick an SVG resolution of 150, 300 or 600 DPI, choose a page size (Fit to image keeps the SVG's own dimensions), then click Convert to PDF and download. Each SVG becomes a high-resolution image on its own page. For vector output that stays editable, use Inkscape or a library.",
+      "To convert SVG to PDF online, open SikatPDF's SVG to PDF tool, add your SVG files, pick an SVG resolution of 150, 300 or 600 DPI, choose a page size (Fit to image keeps the SVG's own dimensions), then click Convert to PDF and download. Each SVG becomes a high-resolution image on its own page. For vector output that stays editable, use Inkscape or a library.",
     published: "2026-11-03",
     sections: [
       {
@@ -834,7 +834,7 @@ export const convertGuides: Guide[] = [
     description:
       "Combine JPG, PNG, WebP, GIF, BMP, TIFF and SVG images into a single PDF, in any order. Up to 100 images, free, with no upload or sign-up required.",
     summary:
-      "To combine images into one PDF, open KissThePDF's Images to PDF tool, add up to 100 JPG, PNG, WebP, GIF, BMP, TIFF or SVG files at once, arrange them with Up and Down, choose page size, Auto orientation, margin and placement, then click Convert to PDF. You get one PDF with a page for each image, in your order.",
+      "To combine images into one PDF, open SikatPDF's Images to PDF tool, add up to 100 JPG, PNG, WebP, GIF, BMP, TIFF or SVG files at once, arrange them with Up and Down, choose page size, Auto orientation, margin and placement, then click Convert to PDF. You get one PDF with a page for each image, in your order.",
     published: "2026-11-03",
     sections: [
       {

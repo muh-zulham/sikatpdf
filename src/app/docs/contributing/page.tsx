@@ -7,7 +7,7 @@ import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
   title: "Contributing Guide",
-  description: "Comprehensive open-source contribution guide for KissThePDF. Learn how to fork, clone, create feature branches, test, and submit pull requests.",
+  description: "Comprehensive open-source contribution guide for SikatPDF. Learn how to fork, clone, create feature branches, test, and submit pull requests.",
 };
 
 const headings = [
@@ -24,10 +24,10 @@ export default function ContributingDocPage() {
       <div className="flex-1 min-w-0 space-y-8">
         <div>
           <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
-            Contributing to KissThePDF
+            Contributing to SikatPDF
           </h1>
           <p className="mt-2 text-base text-slate-600 leading-relaxed">
-            KissThePDF is a community-driven open-source project licensed under MIT. We welcome contributions from developers, designers, technical writers, and security researchers!
+            SikatPDF is a community-driven open-source project licensed under MIT. We welcome contributions from developers, designers, technical writers, and security researchers!
           </p>
         </div>
 
@@ -73,8 +73,8 @@ export default function ContributingDocPage() {
 # Visit: ${siteConfig.githubUrl} and click "Fork"
 
 # 2. Clone your local fork
-git clone https://github.com/YOUR_USERNAME/kiss-the-pdf.git
-cd kiss-the-pdf
+git clone https://github.com/YOUR_USERNAME/sikatpdf.git
+cd sikatpdf
 
 # 3. Add upstream remote
 git remote add upstream ${siteConfig.githubUrl}.git
@@ -103,7 +103,7 @@ git push origin feature/add-watermark-tool
         <section id="adding-a-new-tool" className="space-y-3 pt-4 border-t border-slate-200">
           <h2 className="text-xl font-bold text-slate-900 tracking-tight">Adding a New PDF Tool</h2>
           <p className="text-sm text-slate-700 leading-relaxed">
-            When contributing a new PDF tool to KissThePDF:
+            When contributing a new PDF tool to SikatPDF:
           </p>
           <ol className="list-decimal list-inside space-y-1.5 text-xs text-slate-700 leading-relaxed">
             <li>Register or update the tool in <code>src/config/tools.ts</code> with <code>status: &quot;implemented&quot;</code>.</li>

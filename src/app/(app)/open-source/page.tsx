@@ -7,14 +7,14 @@ import { ShieldCheck, Code2, Lock, Cpu, Star, Bug, GitPullRequest, ArrowRight, H
 export const metadata: Metadata = {
   title: "Open Source Architecture & GitHub Repository",
   description:
-    "KissThePDF is a 100% free, open-source, browser-local PDF toolkit. Discover our privacy architecture, MIT license, and GitHub repository.",
+    "SikatPDF is a 100% free, open-source, browser-local PDF toolkit. Discover our privacy architecture, MIT license, and GitHub repository.",
   alternates: {
     canonical: `${siteConfig.url}/open-source`,
   },
   openGraph: {
     title: `Open Source Architecture & GitHub Repository | ${siteConfig.name}`,
     description:
-      "KissThePDF is a 100% free, open-source, browser-local PDF toolkit. Discover our privacy architecture, MIT license, and GitHub repository.",
+      "SikatPDF is a 100% free, open-source, browser-local PDF toolkit. Discover our privacy architecture, MIT license, and GitHub repository.",
     url: `${siteConfig.url}/open-source`,
     siteName: siteConfig.name,
     type: "website",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `Open Source Architecture & GitHub Repository | ${siteConfig.name}`,
     description:
-      "KissThePDF is a 100% free, open-source, browser-local PDF toolkit. Discover our privacy architecture, MIT license, and GitHub repository.",
+      "SikatPDF is a 100% free, open-source, browser-local PDF toolkit. Discover our privacy architecture, MIT license, and GitHub repository.",
   },
 };
 
@@ -65,7 +65,7 @@ export default function OpenSourcePage() {
           Privacy-First & Open-Source PDF Tools
         </h1>
         <p className="text-base text-slate-600 max-w-2xl leading-relaxed">
-          KissThePDF is built on a fundamental promise: your confidential documents should never leave your personal computer. Every PDF tool runs 100% locally in your web browser.
+          SikatPDF is built on a fundamental promise: your confidential documents should never leave your personal computer. Every PDF tool runs 100% locally in your web browser.
         </p>
 
         <div className="flex flex-wrap items-center gap-3 pt-2">
@@ -141,7 +141,7 @@ export default function OpenSourcePage() {
             Traditional PDF web tools rely on uploading your files to remote cloud servers where proprietary microservices render pages and modify files before sending them back. This introduces privacy risks, security vulnerabilities, and network bandwidth overhead.
           </p>
           <p>
-            <strong>KissThePDF takes the opposite approach:</strong>
+            <strong>SikatPDF takes the opposite approach:</strong>
           </p>
           <ul className="list-disc list-inside space-y-1.5 pl-2 text-slate-700 font-mono text-[11px]">
             <li>Next.js App Router & React for structured, performant user interfaces</li>
@@ -158,10 +158,10 @@ export default function OpenSourcePage() {
         <div className="space-y-2">
           <h2 className="text-lg font-bold text-white flex items-center gap-2">
             <Heart size={18} className="text-orange-400" />
-            Contribute to KissThePDF
+            Contribute to SikatPDF
           </h2>
           <p className="text-xs text-slate-300 max-w-2xl leading-relaxed">
-            KissThePDF is a community-driven open-source project. Whether you are fixing a bug, adding a new PDF utility, optimizing WASM memory performance, or improving documentation, contributions are welcome!
+            SikatPDF is a community-driven open-source project. Whether you are fixing a bug, adding a new PDF utility, optimizing WASM memory performance, or improving documentation, contributions are welcome!
           </p>
         </div>
 

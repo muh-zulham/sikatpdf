@@ -7,7 +7,7 @@ import { DocsCTA } from "@/components/docs/docs-cta";
 
 export const metadata: Metadata = {
   title: "All 100 Tools Documentation",
-  description: "Complete technical documentation directory for all 100 KissThePDF tools across 8 functional domain categories.",
+  description: "Complete technical documentation directory for all 100 SikatPDF tools across 8 functional domain categories.",
 };
 
 export default function AllToolsDocsPage() {

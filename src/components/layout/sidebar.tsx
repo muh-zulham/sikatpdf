@@ -8,6 +8,7 @@ import { tools } from "@/config/tools";
 import { ToolDefinition } from "@/types";
 import { cn } from "@/lib/utils";
 import { SidebarGroup } from "./sidebar-group";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 interface SidebarProps {
   isCollapsed: boolean;
@@ -52,12 +53,12 @@ export function Sidebar({ isCollapsed, setIsCollapsed }: SidebarProps) {
       {/* Sidebar Header / Brand */}
       <div className="flex h-[52px] items-center border-b border-slate-200/80 px-3.5 justify-between bg-white shrink-0">
         <Link href="/" className={cn("flex items-center gap-2.5 min-w-0 transition-opacity", isCollapsed && "hidden")}>
-          <div className="p-1 rounded bg-slate-900 shrink-0">
-            <Image src="/PDF.png" alt="KissThePDF Logo" width={18} height={18} className="rounded-2xs invert brightness-200" />
+          <div className="shrink-0 flex items-center justify-center">
+            <Image src="/logo.png" alt="SikatPDF Logo" width={18} height={18} className="rounded-2xs" />
           </div>
           <div className="flex flex-col min-w-0">
             <span className="font-semibold text-xs tracking-tight text-slate-900 truncate">
-              KissThePDF
+              SikatPDF
             </span>
             <span className="text-[10px] font-mono text-slate-400 leading-none">
               100 Tools Suite
@@ -148,18 +149,9 @@ export function Sidebar({ isCollapsed, setIsCollapsed }: SidebarProps) {
             <span>How-To Guides</span>
           </Link>
 
-          <div className="flex items-center justify-between text-[10px] font-medium text-slate-400 pt-1 border-t border-slate-200/50">
-            <Link href="/open-source" className="hover:text-slate-900 transition-colors">
-              Open Source
-            </Link>
-            <a
-              href="https://github.com/positiveabhii/kiss-the-pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-slate-900 transition-colors"
-            >
-              GitHub
-            </a>
+          <div className="flex items-center justify-between text-[10px] font-medium text-slate-400 pt-2 border-t border-slate-200/50">
+            <span className="pl-2">Theme</span>
+            <ThemeToggle />
           </div>
         </div>
       ) : (

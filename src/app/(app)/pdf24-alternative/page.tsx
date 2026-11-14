@@ -5,13 +5,13 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Free PDF24 Alternative (Cross-Platform & Private)",
-  description: "Looking for a modern, browser-native PDF24 alternative? KissThePDF runs 100% client-side with no server uploads, across Mac, Windows, and Linux.",
+  description: "Looking for a modern, browser-native PDF24 alternative? SikatPDF runs 100% client-side with no server uploads, across Mac, Windows, and Linux.",
   alternates: {
     canonical: `${siteConfig.url}/pdf24-alternative`,
   },
   openGraph: {
     title: "Free PDF24 Alternative (Cross-Platform & Private) | ${siteConfig.name}",
-    description: "Looking for a modern, browser-native PDF24 alternative? KissThePDF runs 100% client-side with no server uploads, across Mac, Windows, and Linux.",
+    description: "Looking for a modern, browser-native PDF24 alternative? SikatPDF runs 100% client-side with no server uploads, across Mac, Windows, and Linux.",
     url: `${siteConfig.url}/pdf24-alternative`,
     siteName: siteConfig.name,
     type: "website",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Free PDF24 Alternative (Cross-Platform & Private) | ${siteConfig.name}",
-    description: "Looking for a modern, browser-native PDF24 alternative? KissThePDF runs 100% client-side with no server uploads, across Mac, Windows, and Linux.",
+    description: "Looking for a modern, browser-native PDF24 alternative? SikatPDF runs 100% client-side with no server uploads, across Mac, Windows, and Linux.",
   },
 };
 
@@ -28,7 +28,7 @@ export default function CompetitorAlternativePage() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Free PDF24 Alternative (Cross-Platform & Private)",
-    "description": "Looking for a modern, browser-native PDF24 alternative? KissThePDF runs 100% client-side with no server uploads, across Mac, Windows, and Linux.",
+    "description": "Looking for a modern, browser-native PDF24 alternative? SikatPDF runs 100% client-side with no server uploads, across Mac, Windows, and Linux.",
   };
 
   const jsonLdFaq = {
@@ -37,26 +37,26 @@ export default function CompetitorAlternativePage() {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How does KissThePDF differ from PDF24 Web Tools?",
+      "name": "How does SikatPDF differ from PDF24 Web Tools?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "PDF24 online tools transmit documents to remote servers for processing. KissThePDF processes documents 100% inside your browser via WebAssembly, requiring zero file transfers."
+        "text": "PDF24 online tools transmit documents to remote servers for processing. SikatPDF processes documents 100% inside your browser via WebAssembly, requiring zero file transfers."
       }
     },
     {
       "@type": "Question",
-      "name": "Does KissThePDF work on macOS and Linux without installing software?",
+      "name": "Does SikatPDF work on macOS and Linux without installing software?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. While PDF24 offers a Windows-only desktop installer, KissThePDF works natively on any operating system inside modern web browsers."
+        "text": "Yes. While PDF24 offers a Windows-only desktop installer, SikatPDF works natively on any operating system inside modern web browsers."
       }
     },
     {
       "@type": "Question",
-      "name": "Is KissThePDF open source?",
+      "name": "Is SikatPDF open source?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. KissThePDF is completely open source under the MIT license, with full transparency on GitHub."
+        "text": "Yes. SikatPDF is completely open source under the MIT license, with full transparency on GitHub."
       }
     }
   ]
@@ -141,16 +141,16 @@ export default function CompetitorAlternativePage() {
         <h2 className="text-2xl font-bold text-slate-900">Frequently Asked Questions</h2>
         <div className="grid gap-4 md:grid-cols-3">
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
-            <h3 className="font-semibold text-slate-900 mb-2">How does KissThePDF differ from PDF24 Web Tools?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">PDF24 online tools transmit documents to remote servers for processing. KissThePDF processes documents 100% inside your browser via WebAssembly, requiring zero file transfers.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">How does SikatPDF differ from PDF24 Web Tools?</h3>
+            <p className="text-sm text-slate-600 leading-relaxed">PDF24 online tools transmit documents to remote servers for processing. SikatPDF processes documents 100% inside your browser via WebAssembly, requiring zero file transfers.</p>
           </div>
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
-            <h3 className="font-semibold text-slate-900 mb-2">Does KissThePDF work on macOS and Linux without installing software?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">Yes. While PDF24 offers a Windows-only desktop installer, KissThePDF works natively on any operating system inside modern web browsers.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">Does SikatPDF work on macOS and Linux without installing software?</h3>
+            <p className="text-sm text-slate-600 leading-relaxed">Yes. While PDF24 offers a Windows-only desktop installer, SikatPDF works natively on any operating system inside modern web browsers.</p>
           </div>
           <div className="bg-slate-50 p-5 rounded-lg border border-slate-100">
-            <h3 className="font-semibold text-slate-900 mb-2">Is KissThePDF open source?</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">Yes. KissThePDF is completely open source under the MIT license, with full transparency on GitHub.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">Is SikatPDF open source?</h3>
+            <p className="text-sm text-slate-600 leading-relaxed">Yes. SikatPDF is completely open source under the MIT license, with full transparency on GitHub.</p>
           </div>
         </div>
       </section>

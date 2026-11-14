@@ -3,7 +3,7 @@ import { toolVariants } from "@/config/tool-variants";
 import { guides } from "@/content/guides";
 
 export async function GET() {
-  const content = `# KissThePDF
+  const content = `# SikatPDF
 
 Free, open-source, privacy-first PDF toolkit running 100% locally in your browser via WebAssembly and client-side JavaScript. No server file uploads, no accounts required, no file size caps.
 
@@ -15,7 +15,7 @@ Free, open-source, privacy-first PDF toolkit running 100% locally in your browse
 - **License**: ${siteConfig.license} Open Source License
 
 ## Product
-KissThePDF provides 100 free online PDF tools categorized across 8 primary domain groups: Organization, Pages, Convert, Edit, Security, Forms, Enhancement, and Reading. All PDF manipulation tasks execute inside the user's local web browser environment.
+SikatPDF provides 100 free online PDF tools categorized across 8 primary domain groups: Organization, Pages, Convert, Edit, Security, Forms, Enhancement, and Reading. All PDF manipulation tasks execute inside the user's local web browser environment.
 
 ## Documentation Index
 - **Documentation Portal**: ${siteConfig.url}/docs

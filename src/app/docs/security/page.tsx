@@ -5,8 +5,8 @@ import { DocsCTA } from "@/components/docs/docs-cta";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "KissThePDF Security Policy & Vulnerability Reporting | Privacy-First PDF Tools",
-  description: "Understand KissThePDF's official security policy, client-side processing, and how to responsibly report vulnerabilities for our privacy-first, open-source PDF tools.",
+  title: "SikatPDF Security Policy & Vulnerability Reporting | Privacy-First PDF Tools",
+  description: "Understand SikatPDF's official security policy, client-side processing, and how to responsibly report vulnerabilities for our privacy-first, open-source PDF tools.",
 };
 
 const headings = [
@@ -25,7 +25,7 @@ export default function SecurityDocPage() {
             Security Policy & Reporting
           </h1>
           <p className="mt-2 text-base text-slate-600 leading-relaxed">
-            Security is paramount for KissThePDF. Because user documents may contain sensitive financial, medical, or legal data, our architecture is designed to minimize attack vectors.
+            Security is paramount for SikatPDF. Because user documents may contain sensitive financial, medical, or legal data, our architecture is designed to minimize attack vectors.
           </p>
         </div>
 
@@ -63,7 +63,7 @@ export default function SecurityDocPage() {
           <ul className="space-y-2 text-xs text-slate-700">
             <li className="p-3 rounded bg-slate-50 border border-slate-200 space-y-1">
               <span className="font-bold text-slate-900 block">1. Client-Side Isolation</span>
-              <span>By processing files strictly within the client tab context, KissThePDF eliminates server-side storage vulnerabilities, database breaches, and cloud storage leaks.</span>
+              <span>By processing files strictly within the client tab context, SikatPDF eliminates server-side storage vulnerabilities, database breaches, and cloud storage leaks.</span>
             </li>
             <li className="p-3 rounded bg-slate-50 border border-slate-200 space-y-1">
               <span className="font-bold text-slate-900 block">2. Dependency Auditing</span>

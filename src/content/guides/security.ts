@@ -10,7 +10,7 @@ export const securityGuides: Guide[] = [
     description:
       "Add an open password to any PDF with AES-256 encryption. Type a password, confirm it, download. Free, no sign-up, and the file never leaves your browser.",
     summary:
-      "To password protect a PDF, open KissThePDF's Protect PDF tool, drop in your file, type a password under Open password, type it again under Confirm password, then click Protect PDF. The tool encrypts the file with AES-256, re-opens it to check the password works, and gives you a copy that will not open without that password.",
+      "To password protect a PDF, open SikatPDF's Protect PDF tool, drop in your file, type a password under Open password, type it again under Confirm password, then click Protect PDF. The tool encrypts the file with AES-256, re-opens it to check the password works, and gives you a copy that will not open without that password.",
     published: "2026-11-03",
     sections: [
       {
@@ -83,7 +83,7 @@ export const securityGuides: Guide[] = [
         blocks: [
           {
             type: "p",
-            text: "Preview can add an open password too. Open the PDF, choose **File > Export**, click **Permissions**, tick **Require Password to Open Document**, enter the password, and save. This is handy when you are offline and already in Preview. KissThePDF works the same way on Windows, Linux, Chromebooks and phones, and confirms the result by re-opening it.",
+            text: "Preview can add an open password too. Open the PDF, choose **File > Export**, click **Permissions**, tick **Require Password to Open Document**, enter the password, and save. This is handy when you are offline and already in Preview. SikatPDF works the same way on Windows, Linux, Chromebooks and phones, and confirms the result by re-opening it.",
           },
         ],
       },
@@ -136,7 +136,7 @@ export const securityGuides: Guide[] = [
     description:
       "Remove the open password or the print and copy restrictions from a PDF you're allowed to open. Enter the password once and download. Free and private.",
     summary:
-      "To remove a password from a PDF, open KissThePDF's Remove PDF Password tool, add the file, type the password it opens with (or the owner password) and click Remove password. You need to know the password. If the file only has restrictions and opens without a password, the tool removes them without asking for one.",
+      "To remove a password from a PDF, open SikatPDF's Remove PDF Password tool, add the file, type the password it opens with (or the owner password) and click Remove password. You need to know the password. If the file only has restrictions and opens without a password, the tool removes them without asking for one.",
     published: "2026-11-03",
     sections: [
       {
@@ -197,7 +197,7 @@ export const securityGuides: Guide[] = [
         blocks: [
           {
             type: "p",
-            text: "Merging, compressing, splitting and editing tools need to read the page content, which is encrypted. KissThePDF's other tools stop with \"This PDF is password-protected\" and point you here. Unlock the file first, then run [Merge PDF](/merge-pdf), [Compress PDF](/compress-pdf) or whatever you need. If the result has to be protected again, finish with [Protect PDF](/protect-pdf).",
+            text: "Merging, compressing, splitting and editing tools need to read the page content, which is encrypted. SikatPDF's other tools stop with \"This PDF is password-protected\" and point you here. Unlock the file first, then run [Merge PDF](/merge-pdf), [Compress PDF](/compress-pdf) or whatever you need. If the result has to be protected again, finish with [Protect PDF](/protect-pdf).",
           },
         ],
       },
@@ -260,7 +260,7 @@ export const securityGuides: Guide[] = [
     description:
       "Encrypt a PDF with AES-256 or AES-128, choose whether metadata stays readable, and add print or copy limits. Free, no sign-up, runs in your browser.",
     summary:
-      "To encrypt a PDF, open KissThePDF's Encrypt PDF tool, add the file, set an open password and confirm it, pick AES-256 (recommended) or AES-128 (older readers), decide whether to encrypt the metadata, optionally restrict printing or copying, then click Encrypt PDF. The tool verifies the cipher and password in the new file before you download it.",
+      "To encrypt a PDF, open SikatPDF's Encrypt PDF tool, add the file, set an open password and confirm it, pick AES-256 (recommended) or AES-128 (older readers), decide whether to encrypt the metadata, optionally restrict printing or copying, then click Encrypt PDF. The tool verifies the cipher and password in the new file before you download it.",
     published: "2026-11-03",
     sections: [
       {
@@ -378,7 +378,7 @@ export const securityGuides: Guide[] = [
     description:
       "See whether a PDF uses AES-256, AES-128 or old RC4, then decrypt it with its password to get a plain copy. Free, private, and nothing is uploaded.",
     summary:
-      "To decrypt a PDF, open KissThePDF's Decrypt PDF tool and add the file. It reports the encryption the file uses, such as AES-256 or RC4. Enter the open or owner password, click Decrypt PDF, and download a copy with no encryption. Files that only carry restrictions are decrypted without any password.",
+      "To decrypt a PDF, open SikatPDF's Decrypt PDF tool and add the file. It reports the encryption the file uses, such as AES-256 or RC4. Enter the open or owner password, click Decrypt PDF, and download a copy with no encryption. Files that only carry restrictions are decrypted without any password.",
     published: "2026-11-03",
     sections: [
       {
@@ -488,7 +488,7 @@ export const securityGuides: Guide[] = [
     description:
       "Choose what readers may do with your PDF: print, copy, edit, comment or fill forms, all from one panel. Optional open password. Free and runs in your browser.",
     summary:
-      "To set PDF permissions, open KissThePDF's PDF Permissions tool, add your file, and use the What readers may do panel to set printing, copying, editing, page changes, comments and form filling. Optionally require an open password, then click Apply permissions and save the generated owner password before downloading.",
+      "To set PDF permissions, open SikatPDF's PDF Permissions tool, add your file, and use the What readers may do panel to set printing, copying, editing, page changes, comments and form filling. Optionally require an open password, then click Apply permissions and save the generated owner password before downloading.",
     published: "2026-11-03",
     sections: [
       {
@@ -540,7 +540,7 @@ export const securityGuides: Guide[] = [
         blocks: [
           {
             type: "p",
-            text: "Permissions are flags stored in the file's encryption dictionary. Acrobat, Preview, Chrome, Edge and other compliant readers read them and grey out the blocked actions. They are not enforced by the encryption itself. If a file opens without a password, its content is readable by anyone, and software that ignores the flags can print, copy or strip them. KissThePDF's own [Remove PDF Password](/remove-pdf-password) clears restrictions-only files without asking for anything.",
+            text: "Permissions are flags stored in the file's encryption dictionary. Acrobat, Preview, Chrome, Edge and other compliant readers read them and grey out the blocked actions. They are not enforced by the encryption itself. If a file opens without a password, its content is readable by anyone, and software that ignores the flags can print, copy or strip them. SikatPDF's own [Remove PDF Password](/remove-pdf-password) clears restrictions-only files without asking for anything.",
           },
           {
             type: "p",
@@ -612,7 +612,7 @@ export const securityGuides: Guide[] = [
     description:
       "Stop a PDF from printing, or allow only low-resolution prints, while people can still open and read it. Free, no sign-up, processed in your browser.",
     summary:
-      "To restrict printing of a PDF, open KissThePDF's Printing Permissions tool, add the file, and leave Printing on Not allowed or switch it to Low resolution. Click Apply permissions, save the generated owner password, and download. Compliant readers such as Acrobat and Chrome then disable or degrade printing.",
+      "To restrict printing of a PDF, open SikatPDF's Printing Permissions tool, add the file, and leave Printing on Not allowed or switch it to Low resolution. Click Apply permissions, save the generated owner password, and download. Compliant readers such as Acrobat and Chrome then disable or degrade printing.",
     published: "2026-11-03",
     sections: [
       {
@@ -714,7 +714,7 @@ export const securityGuides: Guide[] = [
     description:
       "Turn off text and image copying in a PDF so readers can view it but not copy and paste. Screen readers keep working. Free, no sign-up, no upload.",
     summary:
-      "To prevent copying from a PDF, open KissThePDF's Copy Permissions tool, add the file, and leave Allow copying text and images unticked. Click Apply permissions, keep the generated owner password, and download. Readers that honor PDF permissions will block selecting and copying text and images.",
+      "To prevent copying from a PDF, open SikatPDF's Copy Permissions tool, add the file, and leave Allow copying text and images unticked. Click Apply permissions, keep the generated owner password, and download. Readers that honor PDF permissions will block selecting and copying text and images.",
     published: "2026-11-03",
     sections: [
       {
@@ -816,7 +816,7 @@ export const securityGuides: Guide[] = [
     description:
       "Lock a PDF against content edits and page changes so it stays read-only in Acrobat and other readers. Free, no sign-up, and your file stays on your device.",
     summary:
-      "To prevent editing of a PDF, open KissThePDF's Editing Permissions tool and add the file. Allow editing page content and Allow inserting, rotating and deleting pages both start unticked. Click Apply permissions, save the generated owner password, and download. Compliant editors will refuse to change the content or the page order.",
+      "To prevent editing of a PDF, open SikatPDF's Editing Permissions tool and add the file. Allow editing page content and Allow inserting, rotating and deleting pages both start unticked. Click Apply permissions, save the generated owner password, and download. Compliant editors will refuse to change the content or the page order.",
     published: "2026-11-03",
     sections: [
       {
@@ -884,7 +884,7 @@ export const securityGuides: Guide[] = [
             items: [
               "Make last text changes with [Edit PDF](/edit-pdf) and fix page order with [Reorder Pages](/reorder-pages).",
               "Bake filled-in form answers into the page with [Flatten PDF Form](/flatten-pdf-form) so they display the same everywhere.",
-              "Apply the editing restriction last. KissThePDF's editing tools refuse encrypted files, so you would have to unlock it first anyway.",
+              "Apply the editing restriction last. SikatPDF's editing tools refuse encrypted files, so you would have to unlock it first anyway.",
             ],
           },
         ],
@@ -922,7 +922,7 @@ export const securityGuides: Guide[] = [
     description:
       "Stop readers adding comments, highlights and sticky notes to a PDF, and choose whether they can still fill in form fields. Free and runs in your browser.",
     summary:
-      "To restrict comments in a PDF, open KissThePDF's Comment Permissions tool, add the file, and leave Allow comments and annotations unticked. Keep or untick Allow filling in form fields depending on whether readers should still complete the form. Click Apply permissions, save the owner password, and download.",
+      "To restrict comments in a PDF, open SikatPDF's Comment Permissions tool, add the file, and leave Allow comments and annotations unticked. Keep or untick Allow filling in form fields depending on whether readers should still complete the form. Click Apply permissions, save the owner password, and download.",
     published: "2026-11-03",
     sections: [
       {

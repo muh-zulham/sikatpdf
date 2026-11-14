@@ -39,8 +39,7 @@ const FOOTER_LINKS = {
     { label: "How It Works", href: "/docs/how-it-works" },
     { label: "Privacy Model", href: "/docs/privacy" },
     { label: "FAQ", href: "/docs/faq" },
-    { label: "GitHub Source", href: "https://github.com/positiveabhii/kiss-the-pdf" },
-  ],
+      ],
 };
 
 export function LandingFooter() {
@@ -53,7 +52,7 @@ export function LandingFooter() {
               <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--kp-accent)] text-white text-sm font-bold">
                 K
               </span>
-              <span className="text-lg font-semibold">KissPDF</span>
+              <span className="text-lg font-semibold">SikatPDF</span>
             </Link>
             <p className="text-sm text-white/60 leading-relaxed max-w-xs">
               Simple PDF tools that work in your browser. 100% Client-Side Engine.
@@ -100,7 +99,7 @@ export function LandingFooter() {
         </div>
 
         <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-white/40">© 2026 KissPDF • MIT Open Source</p>
+          <p className="text-sm text-white/40">© 2026 SikatPDF • MIT Open Source</p>
           <div className="flex items-center gap-4 text-sm text-white/60">
             <Link href="/docs" className="hover:text-white transition-colors">
               Documentation Hub (/docs)
