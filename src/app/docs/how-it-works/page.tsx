@@ -37,7 +37,7 @@ export default function HowItWorksPage() {
             Traditional online PDF converters require uploading user documents to remote cloud servers. Those servers parse the file, execute modifications, and return the modified document via HTTP response. This architecture introduces severe privacy risks, data breach potential, network latency, and high bandwidth costs.
           </p>
           <div className="p-4 rounded-lg bg-slate-900 text-slate-100 font-mono text-xs overflow-x-auto my-4 space-y-1">
-            <div className="text-orange-400 font-bold">// SikatPDF Processing Pipeline</div>
+            <div className="text-orange-400 font-bold">{"// SikatPDF Processing Pipeline"}</div>
             <div>[User File] → FileReader API → ArrayBuffer in RAM</div>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;↓</div>
             <div>[Web Worker Thread] → pdf-lib / PDF.js WASM Engine</div>

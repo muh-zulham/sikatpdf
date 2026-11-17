@@ -13,6 +13,12 @@ interface DocsSearchModalProps {
 export function DocsSearchModal({ isOpen, onClose }: DocsSearchModalProps) {
   const [query, setQuery] = useState("");
   const [selectedIndex, setSelectedIndex] = useState(0);
+
+  const handleSelect = (href: string) => {
+    onClose();
+    router.push(href);
+  };
+
   const inputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
 
@@ -21,9 +27,6 @@ export function DocsSearchModal({ isOpen, onClose }: DocsSearchModalProps) {
   useEffect(() => {
     if (isOpen) {
       setTimeout(() => inputRef.current?.focus(), 50);
-      setSelectedIndex(0);
-    } else {
-      setQuery("");
     }
   }, [isOpen]);
 
@@ -49,10 +52,6 @@ export function DocsSearchModal({ isOpen, onClose }: DocsSearchModalProps) {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [isOpen, results, selectedIndex]);
 
-  const handleSelect = (href: string) => {
-    onClose();
-    router.push(href);
-  };
 
   if (!isOpen) return null;
 

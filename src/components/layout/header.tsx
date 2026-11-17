@@ -39,8 +39,6 @@ export function Header({ onOpenMobile }: HeaderProps) {
   useEffect(() => {
     if (searchOpen) {
       setTimeout(() => inputRef.current?.focus(), 50);
-    } else {
-      setSearchQuery("");
     }
   }, [searchOpen]);
 
@@ -146,7 +144,7 @@ export function Header({ onOpenMobile }: HeaderProps) {
         <div className="fixed inset-0 z-50 flex items-start justify-center pt-16 px-4 bg-slate-900/40 backdrop-blur-xs animate-in fade-in duration-150">
           <div
             className="fixed inset-0"
-            onClick={() => setSearchOpen(false)}
+            onClick={() => { setSearchOpen(false); setSearchQuery(""); }}
             aria-hidden="true"
           />
           <div className="relative w-full max-w-lg bg-white rounded-xl shadow-xl border border-slate-200 overflow-hidden z-10 flex flex-col max-h-[80vh]">
@@ -161,7 +159,7 @@ export function Header({ onOpenMobile }: HeaderProps) {
                 className="w-full text-sm bg-transparent border-none outline-none text-slate-900 placeholder:text-slate-400"
               />
               <button
-                onClick={() => setSearchOpen(false)}
+                onClick={() => { setSearchOpen(false); setSearchQuery(""); }}
                 className="p-1 text-slate-400 hover:text-slate-600 rounded-md shrink-0"
               >
                 <X size={16} />

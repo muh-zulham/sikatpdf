@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { siteConfig } from "@/config/site";
 import "./globals.css";
-import Script from "next/script";
 import { PWARegister } from "@/components/pwa-register";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -113,7 +112,7 @@ export default function RootLayout({
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0B1F3A" />
-        <meta name="msvalidate.01" content="0A3C6705B3F00C42AC17B790B5C5E6E8" />
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebSite) }}
@@ -130,31 +129,12 @@ export default function RootLayout({
             __html: JSON.stringify(jsonLdSoftwareApp),
           }}
         />
-        <Script id="microsoft-clarity" strategy="afterInteractive">
-          {`
-           (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ysrldmplfc");
-       `}
-        </Script>
       </head>
       <body className={`${inter.className} antialiased`}>
         {children}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-JXBXKMH0VN"
-          strategy="afterInteractive"
-        />
+        
 
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){window.dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-JXBXKMH0VN');
-  `}
-        </Script>
+        
       
         <script
           dangerouslySetInnerHTML={{

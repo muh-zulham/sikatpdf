@@ -6,7 +6,7 @@
     "predev": "node scripts/copy-vendor.mjs",
     "dev": "next dev",
     "prebuild": "node scripts/copy-vendor.mjs",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint"
   },

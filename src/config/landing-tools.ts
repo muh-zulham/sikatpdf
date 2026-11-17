@@ -90,7 +90,23 @@ const CATEGORY_MAP: Record<string, LandingToolCategoryId> = {
   Reading: "reading",
 };
 
-export const LANDING_TOOLS: LandingTool[] = tools.map((t: ToolDefinition) => ({
+
+const FEATURED_IDS = [
+  // Organization
+  "merge-pdf", "split-pdf", "extract-pdf-pages", "delete-pdf-pages", "rotate-pdf", "organize-pdf",
+  // Convert
+  "pdf-to-jpg", "jpg-to-pdf", "pdf-to-png", "png-to-pdf", "pdf-to-word", "word-to-pdf",
+  // Security
+  "protect-pdf", "unlock-pdf",
+  // Optimize (Compress)
+  "compress-pdf",
+  // Editing
+  "edit-pdf", "add-text", "sign-pdf",
+  // Enhancement
+  "add-page-numbers", "add-watermark",
+];
+
+export const LANDING_TOOLS: LandingTool[] = tools.filter((t: ToolDefinition) => FEATURED_IDS.includes(t.id)).map((t: ToolDefinition) => ({
   id: t.id,
   name: t.name,
   description: t.description,

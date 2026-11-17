@@ -1,38 +1,91 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fffaf7;
-  --foreground: #211d1b;
+  --background: #FAFAFA;
+  --foreground: #181818;
 
-  /* KissPDF Desktop App Design Tokens — Restrained & Technical */
-  --kp-bg: #fffaf7;
-  --kp-bg-alt: #fff2ec;
-  --kp-app-bg: #fffaf7;
-  --kp-sidebar-bg: #ffffff;
-  --kp-header-bg: #ffffff;
-  --kp-surface: #ffffff;
-  --kp-text: #211d1b;
-  --kp-text-primary: #211d1b;
-  --kp-text-secondary: #675c56;
-  --kp-text-muted: #897d76;
-  --kp-border: #eadfd8;
-  --kp-border-hover: #d4c1b7;
-  --kp-border-subtle: #f5ede8;
-  --kp-accent: #ef553b;
-  --kp-accent-hover: #ce3f2a;
-  --kp-accent-soft: #fff0ea;
-  --kp-accent-border: #ffcfc2;
-  --kp-accent-glow: #ffe2d8;
+  /* SikatPDF Brand Tokens — Crimson Red + Graphite */
+  --kp-bg: #FAFAFA;
+  --kp-bg-alt: #F5F5F5;
+  --kp-app-bg: #F5F5F5;
+  --kp-sidebar-bg: #FFFFFF;
+  --kp-header-bg: #FFFFFF;
+  --kp-surface: #FFFFFF;
+  --kp-text: #181818;
+  --kp-text-primary: #181818;
+  --kp-text-secondary: #424242;
+  --kp-text-muted: #686868;
+  --kp-border: #E5E5E5;
+  --kp-border-hover: #BDBDBD;
+  --kp-border-subtle: #F0F0F0;
+  
+  /* Accent */
+  --kp-accent: #C62828;
+  --kp-accent-hover: #A91F24;
+  --kp-accent-soft: #FCEEEE;
+  --kp-accent-border: #E9B5B5;
+  --kp-accent-glow: #F8DEDE;
+
+  /* Semantic */
+  --kp-success: #16A36A;
+  --kp-success-soft: #E6F6EE;
+  --kp-warning: #F59E0B;
+  --kp-warning-soft: #FEF3C7;
+  --kp-destructive: #C62828;
+  --kp-destructive-soft: #FCEEEE;
+  --kp-info: #3B82F6;
+  --kp-info-soft: #EFF6FF;
+
+  /* Shadows & Motion */
   --kp-shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
   --kp-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.03);
-  --kp-shadow-md: 0 12px 28px rgba(64, 37, 28, 0.08);
-  --kp-shadow-lg: 0 24px 55px rgba(64, 37, 28, 0.14);
+  --kp-shadow-md: 0 12px 28px rgba(0, 0, 0, 0.08);
+  --kp-shadow-lg: 0 24px 55px rgba(0, 0, 0, 0.12);
   --kp-duration-fast: 160ms;
   --kp-duration: 500ms;
   --kp-ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
   --kp-radius-sm: 6px;
   --kp-radius-md: 8px;
   --kp-radius-lg: 12px;
+}
+
+html.dark {
+  --background: #181818;
+  --foreground: #F5F5F5;
+
+  --kp-bg: #181818;
+  --kp-bg-alt: #202020;
+  --kp-app-bg: #181818;
+  --kp-sidebar-bg: #202020;
+  --kp-header-bg: #202020;
+  --kp-surface: #292929;
+  --kp-text: #F5F5F5;
+  --kp-text-primary: #F5F5F5;
+  --kp-text-secondary: #B8B8B8;
+  --kp-text-muted: #999999;
+  --kp-border: #383838;
+  --kp-border-hover: #555555;
+  --kp-border-subtle: #303030;
+  
+  --kp-accent: #C62828;
+  --kp-accent-hover: #A91F24;
+  --kp-accent-soft: #3A2020;
+  --kp-accent-border: #633333;
+  --kp-accent-glow: #482626;
+
+  --kp-success: #16A36A;
+  --kp-success-soft: #0F2E1F;
+  --kp-warning: #F59E0B;
+  --kp-warning-soft: #33260A;
+  --kp-destructive: #C62828;
+  --kp-destructive-soft: #3A2020;
+  --kp-info: #3B82F6;
+  --kp-info-soft: #0F1F33;
+
+  --kp-shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.6);
+  --kp-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.7), 0 1px 2px -1px rgba(0, 0, 0, 0.6);
+  --kp-shadow-md: 0 12px 28px rgba(0, 0, 0, 0.7);
+  --kp-shadow-lg: 0 24px 55px rgba(0, 0, 0, 0.85);
 }
 
 @theme inline {
@@ -65,7 +118,7 @@ html {
   --hero-light-opacity: 0;
   isolation: isolate;
   position: relative;
-  background-color: #ef553b;
+  background-color: var(--kp-accent);
 }
 
 .kp-landing-hero::before,
