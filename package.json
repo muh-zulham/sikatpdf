@@ -6,9 +6,10 @@
     "predev": "node scripts/copy-vendor.mjs",
     "dev": "next dev",
     "prebuild": "node scripts/copy-vendor.mjs",
-    "build": "next build --webpack",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "build:webpack": "next build --webpack"
   },
   "dependencies": {
     "@neslinesli93/qpdf-wasm": "^0.3.0",
