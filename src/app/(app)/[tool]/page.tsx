@@ -190,7 +190,7 @@ export default async function ToolPage({ params }: Props) {
       </h1>
 
       {/* Tool Canvas Container */}
-      <div className="bg-white border border-slate-200 rounded-lg p-5 sm:p-8 shadow-2xs">
+      <div className="bg-[var(--kp-surface)] border border-[var(--kp-border)] rounded-lg p-5 sm:p-8 shadow-2xs">
         <ToolRenderer toolId={baseId} toolProps={variant?.toolProps} />
       </div>
 

@@ -50,38 +50,39 @@
 }
 
 html.dark {
-  --background: #181818;
-  --foreground: #F5F5F5;
+  --background: #18181B;
+  --foreground: #F4F4F5;
 
-  --kp-bg: #181818;
-  --kp-bg-alt: #202020;
-  --kp-app-bg: #181818;
-  --kp-sidebar-bg: #202020;
-  --kp-header-bg: #202020;
-  --kp-surface: #292929;
-  --kp-text: #F5F5F5;
-  --kp-text-primary: #F5F5F5;
-  --kp-text-secondary: #B8B8B8;
-  --kp-text-muted: #999999;
-  --kp-border: #383838;
-  --kp-border-hover: #555555;
-  --kp-border-subtle: #303030;
-  
-  --kp-accent: #C62828;
-  --kp-accent-hover: #A91F24;
+  --kp-bg: #18181B;
+  --kp-bg-alt: #202024;
+  --kp-app-bg: #18181B;
+  --kp-sidebar-bg: #202024;
+  --kp-header-bg: #202024;
+  --kp-surface: #27272C;
+  --kp-text: #F4F4F5;
+  --kp-text-primary: #F4F4F5;
+  --kp-text-secondary: #B4B4BE;
+  --kp-text-muted: #85858F;
+  --kp-border: #3D3D45;
+  --kp-border-hover: #55555F;
+  --kp-border-subtle: #303036;
+  --kp-accent: #E04444;
+  --kp-accent-hover: #F05252;
   --kp-accent-soft: #3A2020;
   --kp-accent-border: #633333;
   --kp-accent-glow: #482626;
 
+  /* Semantic (tetap) */
   --kp-success: #16A36A;
   --kp-success-soft: #0F2E1F;
   --kp-warning: #F59E0B;
   --kp-warning-soft: #33260A;
-  --kp-destructive: #C62828;
+  --kp-destructive: #E04444;
   --kp-destructive-soft: #3A2020;
   --kp-info: #3B82F6;
   --kp-info-soft: #0F1F33;
 
+  /* Shadows */
   --kp-shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.6);
   --kp-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.7), 0 1px 2px -1px rgba(0, 0, 0, 0.6);
   --kp-shadow-md: 0 12px 28px rgba(0, 0, 0, 0.7);
@@ -463,4 +464,54 @@ html {
   .kp-btn-secondary:hover {
     transform: none;
   }
+}
+
+/* Timpa bg-white / bg-slate jadi surface */
+.dark .bg-white,
+.dark .bg-slate-50,
+.dark .bg-slate-100 {
+}
+
+/* Dropzone: pakai bg-alt yang lebih gelap */
+
+/* Teks */
+.dark .text-slate-900,
+.dark .text-slate-800,
+.dark .text-slate-700 {
+}
+.dark .text-slate-600,
+.dark .text-slate-500 {
+}
+.dark .text-slate-400 {
+}
+
+/* Border */
+.dark .border-slate-200,
+.dark .border-slate-300,
+.dark .border-slate-100 {
+}
+
+/* Focus Ring (Hilangkan biru default) */
+.dark *:focus-visible {
+}
+
+/* 2. Dropzone: Paksa pakai warna Surface yang lebih gelap */
+
+/* 3. Teks & Border di seluruh area tool */
+.dark .text-slate-900,
+.dark .text-slate-800,
+.dark .text-slate-700 {
+}
+
+.dark .text-slate-600,
+.dark .text-slate-500,
+.dark .text-slate-400 {
+}
+
+.dark .border-slate-200,
+.dark .border-slate-300 {
+}
+
+/* 4. Focus Ring: Ganti biru jadi merah (accent) */
+.dark *:focus-visible {
 }

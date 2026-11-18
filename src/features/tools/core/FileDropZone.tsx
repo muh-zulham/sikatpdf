@@ -61,35 +61,37 @@ export function FileDropZone({
         if (!disabled) handle(e.dataTransfer.files);
       }}
       className={`relative w-full border border-dashed rounded-lg transition-all ${
-        dragging ? "border-slate-500 bg-slate-100" : "border-slate-300 bg-slate-50/50 hover:bg-slate-50/90 hover:border-slate-400"
+        dragging
+    ? "border-[var(--kp-accent)] bg-[var(--kp-accent-soft)]"
+    : "border-[var(--kp-border)] bg-[var(--kp-bg-alt)] hover:bg-[var(--kp-surface)] hover:border-[var(--kp-accent-border)]"
       } ${disabled ? "opacity-50 pointer-events-none" : ""}`}
     >
       <button
         type="button"
         onClick={() => inputRef.current?.click()}
-        className={`group flex w-full cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-400 rounded-lg ${
+        className={`group flex w-full cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--kp-accent)] rounded-lg ${
           compact ? "items-center justify-center gap-2 py-3 px-4" : "flex-col items-center justify-center py-10 px-6"
         }`}
       >
         {compact ? (
           <>
-            <FileUp className="w-4 h-4 text-slate-500" aria-hidden="true" />
-            <span className="text-xs font-semibold text-slate-700">{title}</span>
+            <FileUp className="w-4 h-4 text-[var(--kp-text-secondary)]" aria-hidden="true" />
+            <span className="text-xs font-semibold text-[var(--kp-text-primary)]">{title}</span>
           </>
         ) : (
           <>
-            <div className="p-3 bg-white border border-slate-200 rounded-md shadow-2xs text-slate-500 group-hover:text-slate-900 group-hover:border-slate-300 transition-colors mb-3">
+            <div className="p-3 bg-[var(--kp-accent-soft)] border border-[var(--kp-accent-border)] rounded-md shadow-2xs text-[var(--kp-accent)] group-hover:text-[var(--kp-accent-hover)] group-hover:border-[var(--kp-accent)] transition-colors mb-3">
               <FileUp className="w-5 h-5" aria-hidden="true" />
             </div>
-            <p className="text-sm font-semibold text-slate-800">{title}</p>
-            <p className="text-xs text-slate-500 mt-1">
+            <p className="text-sm font-semibold text-[var(--kp-text-primary)]">{title}</p>
+            <p className="text-xs text-[var(--kp-text-secondary)] mt-1">
               {subtitle ?? `Drag and drop ${multiple ? "files" : "a file"} here, or click to browse`}
             </p>
-            <span className="mt-4 px-3 py-1.5 bg-white border border-slate-200 text-slate-700 font-medium text-xs rounded-md group-hover:bg-slate-100/80 shadow-2xs">
+            <span className="mt-4 px-3 py-1.5 bg-[var(--kp-surface)] border border-[var(--kp-border)] text-[var(--kp-text-secondary)] font-medium text-xs rounded-md group-hover:bg-[var(--kp-surface)]/80 shadow-2xs">
               {multiple ? "Choose files" : "Choose file"}
             </span>
             {formatsLabel && (
-              <span className="text-[11px] text-slate-400 mt-3 font-mono">{formatsLabel}</span>
+              <span className="text-[11px] text-[var(--kp-text-muted)] mt-3 font-mono">{formatsLabel}</span>
             )}
           </>
         )}

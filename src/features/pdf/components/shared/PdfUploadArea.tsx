@@ -40,29 +40,29 @@ export function PdfUploadArea({
     <div
       onDragOver={handleDragOver}
       onDrop={handleDrop}
-      className={`relative flex flex-col items-center justify-center w-full py-10 px-6 border border-dashed border-slate-300 rounded-lg bg-slate-50/50 hover:bg-slate-50/90 hover:border-slate-400 transition-all ${
+      className={`relative flex flex-col items-center justify-center w-full py-10 px-6 border border-dashed border-[var(--kp-border)] rounded-lg bg-[var(--kp-bg-alt)]/50 hover:bg-[var(--kp-bg-alt)]/90 hover:border-[var(--kp-border-hover)] transition-all ${
         disabled ? "opacity-50 pointer-events-none" : "cursor-pointer group"
       }`}
     >
       <label className="flex flex-col items-center justify-center w-full h-full cursor-pointer">
-        <div className="p-3 bg-white border border-slate-200 rounded-md shadow-2xs text-slate-500 group-hover:text-slate-900 group-hover:border-slate-300 transition-colors mb-3">
+        <div className="p-3 bg-[var(--kp-surface)] border border-[var(--kp-border)] rounded-md shadow-2xs text-[var(--kp-text-secondary)] group-hover:text-[var(--kp-text-primary)] group-hover:border-[var(--kp-border-hover)] transition-colors mb-3">
           <FileUp className="w-5 h-5" aria-hidden="true" />
         </div>
 
         <div className="text-center space-y-1">
-          <p className="text-sm font-semibold text-slate-800 group-hover:text-slate-900">
+          <p className="text-sm font-semibold text-[var(--kp-text-primary)] group-hover:text-[var(--kp-text-primary)]">
             {label}
           </p>
-          <p className="text-xs text-slate-500">
+          <p className="text-xs text-[var(--kp-text-secondary)]">
             Drag and drop your PDF here, or click to browse
           </p>
         </div>
 
-        <div className="mt-4 px-3 py-1.5 bg-white border border-slate-200 text-slate-700 font-medium text-xs rounded-md group-hover:bg-slate-100/80 group-hover:border-slate-300 transition-colors shadow-2xs">
+        <div className="mt-4 px-3 py-1.5 bg-[var(--kp-surface)] border border-[var(--kp-border)] text-[var(--kp-text-secondary)] font-medium text-xs rounded-md group-hover:bg-[var(--kp-surface)]/80 group-hover:border-[var(--kp-border)] transition-colors shadow-2xs">
           Choose file
         </div>
 
-        <span className="text-[11px] text-slate-400 mt-3 font-mono">
+        <span className="text-[11px] text-[var(--kp-text-muted)] mt-3 font-mono">
           PDF format · Local processing
         </span>
 

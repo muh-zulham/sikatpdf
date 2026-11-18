@@ -34,7 +34,6 @@ export const TIER_LIMITS: Record<UserTier, TierLimits> = {
 };
 
 export function getUserTier(): UserTier {
-  // Sementara hardcode 'free'. Nanti diganti dengan validasi license key.
   if (typeof window !== "undefined") {
     const saved = localStorage.getItem("sikatpdf_tier");
     if (saved === "pro") return "pro";
@@ -42,9 +41,7 @@ export function getUserTier(): UserTier {
   return "free";
 }
 
-export function canUseFeature(feature: keyof TierLimits): boolean {
+export function getToolLimit(tool: keyof Omit<TierLimits, "batchProcessing" | "strongCompression" | "ocr">): number {
   const tier = getUserTier();
-  const limit = TIER_LIMITS[tier][feature];
-  if (typeof limit === "boolean") return limit;
-  return limit > 0;
+  return TIER_LIMITS[tier][tool];
 }

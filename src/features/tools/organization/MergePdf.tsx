@@ -8,6 +8,9 @@ import { formatFileSize } from "@/features/pdf/utils/format-file-size";
 import { FileDropZone } from "../core/FileDropZone";
 import { outputName } from "../core/pdf-io";
 import { Notice, PrimaryButton } from "../core/ui";
+import { useToolLimit } from "@/hooks/use-tool-limit";
+import { FreeLimitBanner } from "@/components/ui/free-limit-banner";
+import { UpgradeModal } from "@/components/ui/upgrade-modal";
 import { openPdfFile, type OpenedPdf } from "./components/open-pdf";
 import { useToolRun } from "./components/useToolRun";
 import { moveItems, nudge } from "./ops/list";
@@ -31,6 +34,7 @@ export default function MergePdf() {
   const [entries, setEntries] = useState<Entry[]>([]);
   const [rejected, setRejected] = useState<string[]>([]);
   const [loading, setLoading] = useState(false);
+  const { limit, showUpgradeModal, setShowUpgradeModal, checkLimit } = useToolLimit("mergeFiles");
   const [dragId, setDragId] = useState<string | null>(null);
   const [dropAt, setDropAt] = useState<number | null>(null);
   // Rows are only draggable while the grip is held, so text in the range field stays selectable.
@@ -44,6 +48,9 @@ export default function MergePdf() {
   });
 
   const addFiles = async (files: File[]) => {
+    // Cek limit, tapi jangan potong file. Biarkan semua masuk.
+    checkLimit(entries.length, files.length);
+
     setLoading(true);
     const problems: string[] = [];
     const added: Entry[] = [];
@@ -64,14 +71,15 @@ export default function MergePdf() {
   const stats = entries.map(entryPages);
   const total = stats.reduce((n, s) => n + s.count, 0);
   const anyRangeError = stats.some((s) => s.error);
-  const blocked =
-    entries.length < 2
-      ? "Add at least two PDFs to merge."
-      : anyRangeError
-        ? "Fix the highlighted page ranges."
-        : total === 0
-          ? "The merged PDF would have no pages."
-          : null;
+  const blocked = entries.length > limit
+    ? `Free tier limit reached (${limit} files). Hapus ${entries.length - limit} file untuk melanjutkan.`
+    : entries.length < 2
+    ? "Add at least two PDFs to merge."
+    : anyRangeError
+    ? "Fix the highlighted page ranges."
+    : total === 0
+    ? "The merged PDF would have no pages."
+    : null;
 
   const merge = () =>
     execute(async ({ onProgress, signal }) => {
@@ -90,6 +98,7 @@ export default function MergePdf() {
 
   return (
     <div className="w-full min-w-0 max-w-3xl mx-auto space-y-5">
+      <FreeLimitBanner limit={limit} current={entries.length} />
       {entries.length === 0 ? (
         <FileDropZone
           multiple
@@ -272,6 +281,7 @@ export default function MergePdf() {
         </>
       )}
       {error && <Notice tone="error">{error}</Notice>}
+      <UpgradeModal isOpen={showUpgradeModal} onClose={() => setShowUpgradeModal(false)} />
     </div>
   );
 }

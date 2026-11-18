@@ -10,7 +10,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const [isCollapsed, setIsCollapsed] = useState(false);
 
   return (
-    <div className="flex h-screen overflow-hidden bg-slate-50 text-slate-900 antialiased selection:bg-orange-100 selection:text-orange-900">
+    <div className="flex h-screen overflow-hidden bg-[var(--kp-app-bg)] text-[var(--kp-text)] antialiased selection:bg-orange-100 selection:text-orange-900">
       {/* Desktop Sidebar */}
       <Sidebar isCollapsed={isCollapsed} setIsCollapsed={setIsCollapsed} />
 
@@ -18,7 +18,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <MobileSidebar isOpen={isMobileOpen} setIsOpen={setIsMobileOpen} />
 
       {/* Main Content Area */}
-      <div className="flex-1 flex flex-col min-w-0 overflow-hidden bg-slate-50/70">
+      <div className="flex-1 flex flex-col min-w-0 overflow-hidden bg-[var(--kp-app-bg)]">
         <Header onOpenMobile={() => setIsMobileOpen(true)} />
         <main className="flex-1 overflow-y-auto">
           <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-6 md:py-8 min-h-full">

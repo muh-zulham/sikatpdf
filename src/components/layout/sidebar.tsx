@@ -46,21 +46,21 @@ export function Sidebar({ isCollapsed, setIsCollapsed }: SidebarProps) {
   return (
     <aside
       className={cn(
-        "hidden md:flex flex-col border-r border-slate-200/80 bg-white transition-all duration-200 ease-out z-20 shrink-0 select-none",
+        "hidden md:flex flex-col border-r border-[var(--kp-border)] bg-[var(--kp-sidebar-bg)] transition-all duration-200 ease-out z-20 shrink-0 select-none",
         isCollapsed ? "w-[64px]" : "w-64"
       )}
     >
       {/* Sidebar Header / Brand */}
-      <div className="flex h-[52px] items-center border-b border-slate-200/80 px-3.5 justify-between bg-white shrink-0">
+      <div className="flex h-[52px] items-center border-b border-[var(--kp-border)]/80 px-3.5 justify-between bg-[var(--kp-sidebar-bg)] shrink-0">
         <Link href="/" className={cn("flex items-center gap-2.5 min-w-0 transition-opacity", isCollapsed && "hidden")}>
           <div className="shrink-0 flex items-center justify-center">
             <Image src="/logo.png" alt="SikatPDF Logo" width={18} height={18} className="rounded-2xs" />
           </div>
           <div className="flex flex-col min-w-0">
-            <span className="font-semibold text-xs tracking-tight text-slate-900 truncate">
+            <span className="font-semibold text-xs tracking-tight text-[var(--kp-text-primary)] truncate">
               SikatPDF
             </span>
-            <span className="text-[10px] font-mono text-slate-400 leading-none">
+            <span className="text-[10px] font-mono text-[var(--kp-text-muted)] leading-none">
               100 Tools Suite
             </span>
           </div>
@@ -69,7 +69,7 @@ export function Sidebar({ isCollapsed, setIsCollapsed }: SidebarProps) {
         <button
           onClick={() => setIsCollapsed(!isCollapsed)}
           className={cn(
-            "p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-md transition-colors",
+            "p-1.5 text-[var(--kp-text-muted)] hover:text-[var(--kp-text-primary)] hover:bg-[var(--kp-surface)] rounded-md transition-colors",
             isCollapsed && "mx-auto"
           )}
           aria-label={isCollapsed ? "Expand sidebar" : "Collapse sidebar"}
@@ -80,27 +80,27 @@ export function Sidebar({ isCollapsed, setIsCollapsed }: SidebarProps) {
 
       {/* Sidebar Tool Search Filter */}
       {!isCollapsed && (
-        <div className="p-2 border-b border-slate-100 bg-slate-50/50">
+        <div className="p-2 border-b border-[var(--kp-border-subtle)] bg-[var(--kp-bg-alt)]/50">
           <div className="relative flex items-center">
-            <Search size={13} className="absolute left-2.5 text-slate-400 pointer-events-none" />
+            <Search size={13} className="absolute left-2.5 text-[var(--kp-text-muted)] pointer-events-none" />
             <input
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Filter 100 tools..."
-              className="w-full h-7 pl-7 pr-7 text-[12px] bg-white border border-slate-200/80 rounded outline-none focus:border-slate-900 placeholder:text-slate-400 font-sans"
+              className="w-full h-7 pl-7 pr-7 text-[12px] bg-[var(--kp-surface)] border border-[var(--kp-border)]/80 rounded outline-none focus:border-[var(--kp-accent)] placeholder:text-[var(--kp-text-muted)] font-sans"
             />
             {searchQuery && (
               <button
                 onClick={() => setSearchQuery("")}
-                className="absolute right-2 text-slate-400 hover:text-slate-600 p-0.5 rounded"
+                className="absolute right-2 text-[var(--kp-text-muted)] hover:text-[var(--kp-text-secondary)] p-0.5 rounded"
               >
                 <X size={12} />
               </button>
             )}
           </div>
           {searchQuery && (
-            <div className="mt-1 px-1 flex items-center justify-between text-[10px] text-slate-400 font-mono">
+            <div className="mt-1 px-1 flex items-center justify-between text-[10px] text-[var(--kp-text-muted)] font-mono">
               <span>Showing {totalFilteredCount} of 100 tools</span>
             </div>
           )}
@@ -119,7 +119,7 @@ export function Sidebar({ isCollapsed, setIsCollapsed }: SidebarProps) {
             />
           ))
         ) : (
-          <div className="p-4 text-center text-xs text-slate-400">
+          <div className="p-4 text-center text-xs text-[var(--kp-text-muted)]">
             No tools match &quot;{searchQuery}&quot;
           </div>
         )}
@@ -127,7 +127,7 @@ export function Sidebar({ isCollapsed, setIsCollapsed }: SidebarProps) {
 
       {/* Sidebar Footer */}
       {!isCollapsed ? (
-        <div className="p-3 border-t border-slate-100 bg-slate-50/50 text-[11px] text-slate-500 space-y-2">
+        <div className="p-3 border-t border-[var(--kp-border-subtle)] bg-[var(--kp-bg-alt)]/50 text-[11px] text-[var(--kp-text-secondary)] space-y-2">
           <Link
             href="/docs"
             className="flex items-center justify-between p-2 rounded-md bg-orange-50 hover:bg-orange-100/80 border border-orange-200/80 text-orange-700 font-semibold transition-colors group"
@@ -143,19 +143,19 @@ export function Sidebar({ isCollapsed, setIsCollapsed }: SidebarProps) {
 
           <Link
             href="/guides"
-            className="flex items-center gap-1.5 p-2 rounded-md text-slate-600 hover:bg-slate-100 hover:text-slate-900 font-semibold transition-colors"
+            className="flex items-center gap-1.5 p-2 rounded-md text-[var(--kp-text-secondary)] hover:bg-[var(--kp-surface)] hover:text-[var(--kp-text-primary)] font-semibold transition-colors"
           >
-            <GraduationCap size={13} className="text-slate-500" />
+            <GraduationCap size={13} className="text-[var(--kp-text-secondary)]" />
             <span>How-To Guides</span>
           </Link>
 
-          <div className="flex items-center justify-between text-[10px] font-medium text-slate-400 pt-2 border-t border-slate-200/50">
+          <div className="flex items-center justify-between text-[10px] font-medium text-[var(--kp-text-muted)] pt-2 border-t border-[var(--kp-border)]/50">
             <span className="pl-2">Theme</span>
             <ThemeToggle />
           </div>
         </div>
       ) : (
-        <div className="p-2 border-t border-slate-100 flex justify-center">
+        <div className="p-2 border-t border-[var(--kp-border-subtle)] flex justify-center">
           <Link
             href="/docs"
             className="p-2 text-orange-600 hover:bg-orange-50 rounded-md transition-colors"
